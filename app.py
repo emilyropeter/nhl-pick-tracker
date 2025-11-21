@@ -7,6 +7,12 @@ import streamlit as st
 import requests
 import firebase_admin
 from firebase_admin import credentials, firestore
+import pandas as pd
+
+# ----------------- CONFIG -----------------
+
+SCHEDULE_CSV_PATH = "nhl_2025_2026_schedule_simple.csv"
+ADMIN_EMAIL = "emilyropeter@gmail.com"
 
 # ----------------- ENVIRONMENT CONFIG -----------------
 
@@ -15,8 +21,10 @@ FIREBASE_PROJECT_ID = os.environ.get("FIREBASE_PROJECT_ID")
 SERVICE_ACCOUNT_JSON = os.environ.get("FIREBASE_SERVICE_ACCOUNT_JSON")
 
 if not (FIREBASE_API_KEY and FIREBASE_PROJECT_ID and SERVICE_ACCOUNT_JSON):
-    st.error("Firebase environment variables are not set. "
-             "Please configure FIREBASE_API_KEY, FIREBASE_PROJECT_ID, and FIREBASE_SERVICE_ACCOUNT_JSON.")
+    st.error(
+        "Firebase environment variables are not set. "
+        "Please configure FIREBASE_API_KEY, FIREBASE_PROJECT_ID, and FIREBASE_SERVICE_ACCOUNT_JSON."
+    )
     st.stop()
 
 # ----------------- FIREBASE ADMIN INIT -----------------
@@ -27,16 +35,14 @@ if not firebase_admin._apps:
 
 db = firestore.client()
 
-# ----------------- CONSTANTS -----------------
+# ----------------- AUTH CONSTANTS -----------------
 
-NHL_SCHEDULE_URL = "https://statsapi.web.nhl.com/api/v1/schedule"
 AUTH_SIGNUP_URL = (
     f"https://identitytoolkit.googleapis.com/v1/accounts:signUp?key={FIREBASE_API_KEY}"
 )
 AUTH_SIGNIN_URL = (
     f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={FIREBASE_API_KEY}"
 )
-
 
 # ===================== WEEK / DATE HELPERS =====================
 
@@ -84,11 +90,11 @@ def get_week_id(sunday: date) -> str:
 
 def get_week_date_range(sunday: date):
     """
-    Return (start_date, end_date) strings in 'YYYY-MM-DD' for Sunday -> Saturday.
+    Return (start_date, end_date) date objects for Sunday -> Saturday.
     """
     start_date = sunday
     end_date = sunday + timedelta(days=6)
-    return start_date.isoformat(), end_date.isoformat()
+    return start_date, end_date
 
 
 def is_pick_editing_open(today: date) -> bool:
@@ -100,50 +106,25 @@ def is_pick_editing_open(today: date) -> bool:
     return today.weekday() == 5  # Saturday
 
 
-# ===================== NHL API HELPERS =====================
+# ===================== SCHEDULE (CSV) HELPERS =====================
 
-def fetch_schedule_range(start_date: str, end_date: str) -> Dict[str, Any]:
+@st.cache_data
+def load_schedule() -> pd.DataFrame:
     """
-    Fetch NHL schedule between startDate and endDate (inclusive).
+    Load the schedule CSV.
+    Expected columns: date, game_id, home_team, away_team
+    - date: YYYY-MM-DD
+    - game_id: unique per game (we'll use as string key)
     """
-    params = {"startDate": start_date, "endDate": end_date}
-    r = requests.get(NHL_SCHEDULE_URL, params=params)
-    r.raise_for_status()
-    return r.json()
+    df = pd.read_csv(SCHEDULE_CSV_PATH)
+    df["date"] = pd.to_datetime(df["date"]).dt.date
+    return df
 
 
-def fetch_day_schedule(game_date: str) -> Dict[str, Any]:
-    params = {"date": game_date}
-    r = requests.get(NHL_SCHEDULE_URL, params=params)
-    r.raise_for_status()
-    return r.json()
-
-
-def get_game_winner_name(game: Dict[str, Any]) -> str | None:
-    """
-    Given a game object from NHL schedule API, return the winning team's name if final.
-    Returns None if game not final or tie-like edge cases.
-    """
-    status = game.get("status", {}).get("detailedState")
-    if status != "Final":
-        return None
-
-    teams = game.get("teams", {})
-    home = teams.get("home", {})
-    away = teams.get("away", {})
-
-    home_team = home.get("team", {}).get("name")
-    away_team = away.get("team", {}).get("name")
-    home_score = home.get("score", 0)
-    away_score = away.get("score", 0)
-
-    if home_score > away_score:
-        return home_team
-    elif away_score > home_score:
-        return away_team
-    else:
-        # If you want to handle ties/shootouts differently, you can adjust here.
-        return None
+def get_week_games(start_date: date, end_date: date) -> pd.DataFrame:
+    df = load_schedule()
+    mask = (df["date"] >= start_date) & (df["date"] <= end_date)
+    return df.loc[mask].sort_values(["date", "game_id"])
 
 
 # ===================== FIRESTORE HELPERS =====================
@@ -186,73 +167,77 @@ def get_all_picks_for_week(week_id: str):
     return db.collection("picks").where("week_id", "==", week_id).stream()
 
 
+def get_game_result(game_id: int) -> str | None:
+    """
+    Get the winner for a game from Firestore results collection.
+    Returns team name or None if not set.
+    """
+    doc = db.collection("results").document(str(game_id)).get()
+    if not doc.exists:
+        return None
+    return doc.to_dict().get("winner")
+
+
+def set_game_result(game_id: int, winner: str | None, meta: Dict[str, Any]):
+    """
+    Set or clear the winner for a game.
+    If winner is None, we still keep doc but with winner = None.
+    """
+    data = {
+        "winner": winner,
+        "updated_at": firestore.SERVER_TIMESTAMP,
+    }
+    data.update(meta)
+    db.collection("results").document(str(game_id)).set(data, merge=True)
+
+
 # ===================== SCORING / LEADERBOARDS =====================
 
 def compute_weekly_scores(week_id: str) -> Dict[str, Dict[str, Any]]:
     """
     Returns: {uid: {"display_name": str, "correct": int, "total": int}}
+    Uses Firestore results (winner per game_id).
     """
     picks_docs = list(get_all_picks_for_week(week_id))
     if not picks_docs:
         return {}
 
-    # Group game picks by date to minimize API calls
-    picks_by_date: Dict[str, list] = {}
-    user_names: Dict[str, str] = {}
+    scores: Dict[str, Dict[str, Any]] = {}
 
     for doc in picks_docs:
         data = doc.to_dict()
         uid = data["uid"]
+
+        # Get user display name
         user_doc = db.collection("users").document(uid).get()
         if user_doc.exists:
-            user_names[uid] = user_doc.to_dict().get("display_name", uid)
+            display_name = user_doc.to_dict().get("display_name", uid)
         else:
-            user_names[uid] = uid
+            display_name = uid
 
-        picks = data.get("picks", {})
-        for game_pk_str, info in picks.items():
-            game_date = info["game_date"]
-            if game_date not in picks_by_date:
-                picks_by_date[game_date] = []
-            picks_by_date[game_date].append(
-                {
-                    "uid": uid,
-                    "game_pk": int(game_pk_str),
-                    "choice": info["choice"],
-                }
-            )
-
-    # Determine winners per game
-    winners_by_game_pk: Dict[int, str | None] = {}
-    for game_date, picks_list in picks_by_date.items():
-        sched = fetch_day_schedule(game_date)
-        for d in sched.get("dates", []):
-            for g in d.get("games", []):
-                game_pk = g.get("gamePk")
-                winners_by_game_pk[game_pk] = get_game_winner_name(g)
-
-    # Score users
-    scores: Dict[str, Dict[str, Any]] = {}
-    for doc in picks_docs:
-        data = doc.to_dict()
-        uid = data["uid"]
         user_picks = data.get("picks", {})
         correct = 0
         total = 0
-        for game_pk_str, info in user_picks.items():
-            game_pk = int(game_pk_str)
-            winner = winners_by_game_pk.get(game_pk)
-            if winner is None:
-                # game not final or tie-handling
+
+        for game_id_str, info in user_picks.items():
+            try:
+                game_id = int(game_id_str)
+            except ValueError:
                 continue
+
+            winner = get_game_result(game_id)
+            if not winner:
+                # No winner set yet -> game not graded
+                continue
+
             total += 1
             if info["choice"] == winner:
                 correct += 1
 
         scores[uid] = {
-            "display_name": user_names[uid],
-            "correct": correct,      # also "points"
-            "total": total,          # final games counted
+            "display_name": display_name,
+            "correct": correct,  # also "points"
+            "total": total,      # games graded
         }
 
     return scores
@@ -264,9 +249,7 @@ def compute_all_time_scores() -> Dict[str, Dict[str, Any]]:
     Returns: {uid: {"display_name": str, "correct": int, "total": int}}
     """
     all_picks = db.collection("picks").stream()
-    # First, collect all picks grouped by uid and date
-    user_names: Dict[str, str] = {}
-    picks_by_date: Dict[str, list] = {}
+    scores: Dict[str, Dict[str, Any]] = {}
 
     for doc in all_picks:
         data = doc.to_dict()
@@ -274,55 +257,30 @@ def compute_all_time_scores() -> Dict[str, Dict[str, Any]]:
 
         user_doc = db.collection("users").document(uid).get()
         if user_doc.exists:
-            user_names[uid] = user_doc.to_dict().get("display_name", uid)
+            display_name = user_doc.to_dict().get("display_name", uid)
         else:
-            user_names[uid] = uid
+            display_name = uid
+
+        if uid not in scores:
+            scores[uid] = {
+                "display_name": display_name,
+                "correct": 0,
+                "total": 0,
+            }
 
         user_picks = data.get("picks", {})
-        for game_pk_str, info in user_picks.items():
-            game_date = info["game_date"]
-            if game_date not in picks_by_date:
-                picks_by_date[game_date] = []
-            picks_by_date[game_date].append(
-                {
-                    "uid": uid,
-                    "game_pk": int(game_pk_str),
-                    "choice": info["choice"],
-                }
-            )
-
-    if not picks_by_date:
-        return {}
-
-    # Fetch winners for each date once
-    winners_by_game_pk: Dict[int, str | None] = {}
-    for game_date, picks_list in picks_by_date.items():
-        sched = fetch_day_schedule(game_date)
-        for d in sched.get("dates", []):
-            for g in d.get("games", []):
-                game_pk = g.get("gamePk")
-                winners_by_game_pk[game_pk] = get_game_winner_name(g)
-
-    # Aggregate scores
-    scores: Dict[str, Dict[str, Any]] = {}
-    for game_date, picks_list in picks_by_date.items():
-        for pick in picks_list:
-            uid = pick["uid"]
-            game_pk = pick["game_pk"]
-            choice = pick["choice"]
-            winner = winners_by_game_pk.get(game_pk)
-            if winner is None:
+        for game_id_str, info in user_picks.items():
+            try:
+                game_id = int(game_id_str)
+            except ValueError:
                 continue
 
-            if uid not in scores:
-                scores[uid] = {
-                    "display_name": user_names[uid],
-                    "correct": 0,
-                    "total": 0,
-                }
+            winner = get_game_result(game_id)
+            if not winner:
+                continue
 
             scores[uid]["total"] += 1
-            if choice == winner:
+            if info["choice"] == winner:
                 scores[uid]["correct"] += 1
 
     return scores
@@ -405,9 +363,12 @@ def picks_page(user: Dict[str, Any]):
     today = date.today()
     week_sunday = get_picks_week_sunday(today)
     week_id = get_week_id(week_sunday)
-    start_date_str, end_date_str = get_week_date_range(week_sunday)
+    start_date, end_date = get_week_date_range(week_sunday)
 
-    st.caption(f"Week: {week_sunday.isoformat()} (Sunday) to { (week_sunday + timedelta(days=6)).isoformat() } (Saturday)")
+    st.caption(
+        f"Week: {week_sunday.isoformat()} (Sunday) "
+        f"to {(week_sunday + timedelta(days=6)).isoformat()} (Saturday)"
+    )
     editing_open = is_pick_editing_open(today)
 
     if editing_open:
@@ -415,28 +376,27 @@ def picks_page(user: Dict[str, Any]):
     else:
         st.info("Picks are LOCKED. You can view your picks but not change them.")
 
-    schedule_json = fetch_schedule_range(start_date_str, end_date_str)
+    week_games = get_week_games(start_date, end_date)
     user_picks = load_user_picks(user["uid"], week_id)
     all_picks = dict(user_picks)  # copy
 
-    if not schedule_json.get("dates"):
-        st.info("No NHL games found for this week.")
+    if week_games.empty:
+        st.info("No NHL games found for this week in the schedule CSV.")
         return
 
-    for date_block in schedule_json["dates"]:
-        game_date = date_block["date"]
-        st.subheader(game_date)
+    for game_date in sorted(week_games["date"].unique()):
+        st.subheader(game_date.isoformat())
+        day_games = week_games[week_games["date"] == game_date]
 
-        for game in date_block.get("games", []):
-            game_pk = game["gamePk"]
-            game_id_str = str(game_pk)
-
-            home_team = game["teams"]["home"]["team"]["name"]
-            away_team = game["teams"]["away"]["team"]["name"]
+        for _, row in day_games.iterrows():
+            game_id = row["game_id"]
+            game_id_str = str(game_id)
+            home_team = row["home_team"]
+            away_team = row["away_team"]
 
             col1, col2 = st.columns([2, 2])
             with col1:
-                st.write(f"{away_team} @ {home_team}")
+                st.write(f"{away_team} @ {home_team} (Game ID: {game_id_str})")
 
             with col2:
                 if editing_open:
@@ -455,11 +415,11 @@ def picks_page(user: Dict[str, Any]):
                         "Pick winner",
                         options,
                         index=default_index,
-                        key=f"pick_{game_pk}",
+                        key=f"pick_{game_id_str}",
                     )
 
                     all_picks[game_id_str] = {
-                        "game_date": game_date,
+                        "game_date": game_date.isoformat(),
                         "home_team": home_team,
                         "away_team": away_team,
                         "choice": choice,
@@ -528,6 +488,68 @@ def leaderboard_page():
         st.table(rows)
 
 
+def admin_set_winners_page(user: Dict[str, Any]):
+    st.header("🛠 Admin – Set Game Winners")
+
+    if user["email"] != ADMIN_EMAIL:
+        st.error("You do not have permission to access this page.")
+        return
+
+    df = load_schedule()
+
+    default_date = date.today()
+    selected_date = st.date_input("Select game date", value=default_date)
+
+    day_games = df[df["date"] == selected_date].sort_values("game_id")
+
+    if day_games.empty:
+        st.info("No games found in the schedule CSV for this date.")
+        return
+
+    st.write(f"Games on {selected_date.isoformat()}:")
+
+    with st.form("set_winners_form"):
+        selections: Dict[int, str | None] = {}
+
+        for _, row in day_games.iterrows():
+            game_id = row["game_id"]
+            home_team = row["home_team"]
+            away_team = row["away_team"]
+
+            current_winner = get_game_result(int(game_id))
+
+            options = ["(no winner yet)", home_team, away_team]
+            default_index = 0
+            if current_winner in [home_team, away_team]:
+                default_index = options.index(current_winner)
+
+            choice = st.selectbox(
+                f"{away_team} @ {home_team} (Game ID: {game_id})",
+                options,
+                index=default_index,
+                key=f"winner_{game_id}",
+            )
+
+            selections[int(game_id)] = (
+                None if choice == "(no winner yet)" else choice
+            )
+
+        submitted = st.form_submit_button("Save winners")
+        if submitted:
+            for game_id, winner in selections.items():
+                meta = {
+                    "date": selected_date.isoformat(),
+                    "home_team": str(
+                        day_games[day_games["game_id"] == game_id]["home_team"].iloc[0]
+                    ),
+                    "away_team": str(
+                        day_games[day_games["game_id"] == game_id]["away_team"].iloc[0]
+                    ),
+                }
+                set_game_result(game_id, winner, meta)
+            st.success("Winners updated successfully!")
+
+
 # ===================== MAIN APP =====================
 
 def main():
@@ -544,11 +566,17 @@ def main():
         st.sidebar.markdown(f"**Logged in as:** {user['email']}")
         logout_widget()
 
-        page = st.sidebar.selectbox("Page", ["Make Picks", "Leaderboards"])
+        pages = ["Make Picks", "Leaderboards"]
+        if user["email"] == ADMIN_EMAIL:
+            pages.append("Admin – Set Winners")
+
+        page = st.sidebar.selectbox("Page", pages)
         if page == "Make Picks":
             picks_page(user)
-        else:
+        elif page == "Leaderboards":
             leaderboard_page()
+        else:
+            admin_set_winners_page(user)
     else:
         st.info("Please log in or sign up to make picks and view leaderboards.")
 
