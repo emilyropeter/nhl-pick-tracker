@@ -1,0 +1,1313 @@
+date,game_id,home_team,away_team,winner
+2025-10-07,1,Florida Panthers,Chicago Blackhawks,Florida Panthers
+2025-10-07,2,New York Rangers,Pittsburgh Penguins,Pittsburgh Penguins
+2025-10-07,3,Los Angeles Kings,Colorado Avalanche,Colorado Avalanche
+2025-10-08,4,Toronto Maple Leafs,Montreal Canadiens,Toronto Maple Leafs
+2025-10-08,5,Washington Capitals,Boston Bruins,Boston Bruins
+2025-10-08,6,Edmonton Oilers,Calgary Flames,Calgary Flames
+2025-10-08,7,Vegas Golden Knights,Los Angeles Kings,Los Angeles Kings
+2025-10-09,8,Boston Bruins,Chicago Blackhawks,Boston Bruins
+2025-10-09,9,Buffalo Sabres,New York Rangers,New York Rangers
+2025-10-09,10,Detroit Red Wings,Montreal Canadiens,Montreal Canadiens
+2025-10-09,11,Tampa Bay Lightning,Ottawa Senators,Ottawa Senators
+2025-10-09,12,Florida Panthers,Philadelphia Flyers,Florida Panthers
+2025-10-09,13,Pittsburgh Penguins,New York Islanders,Pittsburgh Penguins
+2025-10-09,14,Carolina Hurricanes,New Jersey Devils,Carolina Hurricanes
+2025-10-09,15,St. Louis Blues,Minnesota Wild,Minnesota Wild
+2025-10-09,16,Nashville Predators,Columbus Blue Jackets,Nashville Predators
+2025-10-09,17,Winnipeg Jets,Dallas Stars,Dallas Stars
+2025-10-09,18,Colorado Avalanche,Utah Mammoth,Colorado Avalanche
+2025-10-09,19,Vancouver Canucks,Calgary Flames,Vancouver Canucks
+2025-10-09,20,San Jose Sharks,Vegas Golden Knights,Vegas Golden Knights
+2025-10-09,21,Seattle Kraken,Anaheim Ducks,Seattle Kraken
+2025-10-11,22,Winnipeg Jets,Los Angeles Kings,Winnipeg Jets
+2025-10-11,23,Calgary Flames,St. Louis Blues,St. Louis Blues
+2025-10-11,24,Boston Bruins,Buffalo Sabres,Boston Bruins
+2025-10-11,25,Detroit Red Wings,Toronto Maple Leafs,Detroit Red Wings
+2025-10-11,26,Tampa Bay Lightning,New Jersey Devils,New Jersey Devils
+2025-10-11,27,Florida Panthers,Ottawa Senators,Florida Panthers
+2025-10-11,28,New York Islanders,Washington Capitals,Washington Capitals
+2025-10-11,29,Pittsburgh Penguins,New York Rangers,New York Rangers
+2025-10-11,30,Carolina Hurricanes,Philadelphia Flyers,Carolina Hurricanes
+2025-10-11,31,Chicago Blackhawks,Montreal Canadiens,Montreal Canadiens
+2025-10-11,32,Nashville Predators,Utah Mammoth,Utah Mammoth
+2025-10-11,33,Minnesota Wild,Columbus Blue Jackets,Columbus Blue Jackets
+2025-10-11,34,Colorado Avalanche,Dallas Stars,Dallas Stars
+2025-10-11,35,Edmonton Oilers,Vancouver Canucks,Edmonton Oilers
+2025-10-11,36,San Jose Sharks,Anaheim Ducks,Anaheim Ducks
+2025-10-11,37,Seattle Kraken,Vegas Golden Knights,Seattle Kraken
+2025-10-12,38,New York Rangers,Washington Capitals,Washington Capitals
+2025-10-13,39,Buffalo Sabres,Colorado Avalanche,Colorado Avalanche
+2025-10-13,40,Boston Bruins,Tampa Bay Lightning,Tampa Bay Lightning
+2025-10-13,41,Ottawa Senators,Nashville Predators,Nashville Predators
+2025-10-13,42,New York Islanders,Winnipeg Jets,Winnipeg Jets
+2025-10-13,43,Toronto Maple Leafs,Detroit Red Wings,Detroit Red Wings
+2025-10-13,44,Philadelphia Flyers,Florida Panthers,Philadelphia Flyers
+2025-10-13,45,Columbus Blue Jackets,New Jersey Devils,New Jersey Devils
+2025-10-13,46,Vancouver Canucks,St. Louis Blues,St. Louis Blues
+2025-10-13,47,Minnesota Wild,Los Angeles Kings,Minnesota Wild
+2025-10-13,48,Chicago Blackhawks,Utah Mammoth,Chicago Blackhawks
+2025-10-14,49,Toronto Maple Leafs,Nashville Predators,Toronto Maple Leafs
+2025-10-14,50,Montreal Canadiens,Seattle Kraken,Montreal Canadiens
+2025-10-14,51,New York Rangers,Edmonton Oilers,Edmonton Oilers
+2025-10-14,52,Washington Capitals,Tampa Bay Lightning,Washington Capitals
+2025-10-14,53,Calgary Flames,Vegas Golden Knights,Vegas Golden Knights
+2025-10-14,54,Dallas Stars,Minnesota Wild,Dallas Stars
+2025-10-14,55,San Jose Sharks,Carolina Hurricanes,Carolina Hurricanes
+2025-10-14,56,Anaheim Ducks,Pittsburgh Penguins,Anaheim Ducks
+2025-10-15,57,Buffalo Sabres,Ottawa Senators,Buffalo Sabres
+2025-10-15,58,Detroit Red Wings,Florida Panthers,Detroit Red Wings
+2025-10-15,59,St. Louis Blues,Chicago Blackhawks,Chicago Blackhawks
+2025-10-15,60,Utah Mammoth,Calgary Flames,Utah Mammoth
+2025-10-16,61,Toronto Maple Leafs,New York Rangers,Toronto Maple Leafs
+2025-10-16,62,Montreal Canadiens,Nashville Predators,Montreal Canadiens
+2025-10-16,63,Ottawa Senators,Seattle Kraken,Ottawa Senators
+2025-10-16,64,New Jersey Devils,Florida Panthers,New Jersey Devils
+2025-10-16,65,New York Islanders,Edmonton Oilers,New York Islanders
+2025-10-16,66,Philadelphia Flyers,Winnipeg Jets,Winnipeg Jets
+2025-10-16,67,Columbus Blue Jackets,Colorado Avalanche,Colorado Avalanche
+2025-10-16,68,Dallas Stars,Vancouver Canucks,Vancouver Canucks
+2025-10-16,69,Vegas Golden Knights,Boston Bruins,Vegas Golden Knights
+2025-10-16,70,Anaheim Ducks,Carolina Hurricanes,Carolina Hurricanes
+2025-10-16,71,Los Angeles Kings,Pittsburgh Penguins,Pittsburgh Penguins
+2025-10-17,72,Detroit Red Wings,Tampa Bay Lightning,Detroit Red Wings
+2025-10-17,73,Washington Capitals,Minnesota Wild,Washington Capitals
+2025-10-17,74,Chicago Blackhawks,Vancouver Canucks,Vancouver Canucks
+2025-10-17,75,Utah Mammoth,San Jose Sharks,Utah Mammoth
+2025-10-18,76,Buffalo Sabres,Florida Panthers,Buffalo Sabres
+2025-10-18,77,Ottawa Senators,New York Islanders,New York Islanders
+2025-10-18,78,New Jersey Devils,Edmonton Oilers,New Jersey Devils
+2025-10-18,79,Toronto Maple Leafs,Seattle Kraken,Seattle Kraken
+2025-10-18,80,Montreal Canadiens,New York Rangers,New York Rangers
+2025-10-18,81,Philadelphia Flyers,Minnesota Wild,Philadelphia Flyers
+2025-10-18,82,Columbus Blue Jackets,Tampa Bay Lightning,Columbus Blue Jackets
+2025-10-18,83,St. Louis Blues,Dallas Stars,St. Louis Blues
+2025-10-18,84,Winnipeg Jets,Nashville Predators,Winnipeg Jets
+2025-10-18,85,Colorado Avalanche,Boston Bruins,Colorado Avalanche
+2025-10-18,86,Los Angeles Kings,Carolina Hurricanes,Carolina Hurricanes
+2025-10-18,87,Vegas Golden Knights,Calgary Flames,Vegas Golden Knights
+2025-10-18,88,San Jose Sharks,Pittsburgh Penguins,Pittsburgh Penguins
+2025-10-19,89,Washington Capitals,Vancouver Canucks,Vancouver Canucks
+2025-10-19,90,Detroit Red Wings,Edmonton Oilers,Detroit Red Wings
+2025-10-19,91,Chicago Blackhawks,Anaheim Ducks,Chicago Blackhawks
+2025-10-19,92,Utah Mammoth,Boston Bruins,Utah Mammoth
+2025-10-20,93,New York Rangers,Minnesota Wild,Minnesota Wild
+2025-10-20,94,Philadelphia Flyers,Seattle Kraken,Philadelphia Flyers
+2025-10-20,95,Montreal Canadiens,Buffalo Sabres,Montreal Canadiens
+2025-10-20,96,Calgary Flames,Winnipeg Jets,Winnipeg Jets
+2025-10-20,97,Vegas Golden Knights,Carolina Hurricanes,Vegas Golden Knights
+2025-10-21,98,Toronto Maple Leafs,New Jersey Devils,New Jersey Devils
+2025-10-21,99,Ottawa Senators,Edmonton Oilers,Edmonton Oilers
+2025-10-21,100,New York Islanders,San Jose Sharks,New York Islanders
+2025-10-21,101,Pittsburgh Penguins,Vancouver Canucks,Pittsburgh Penguins
+2025-10-21,102,Washington Capitals,Seattle Kraken,Washington Capitals
+2025-10-21,103,Boston Bruins,Florida Panthers,Florida Panthers
+2025-10-21,104,St. Louis Blues,Los Angeles Kings,Los Angeles Kings
+2025-10-21,105,Nashville Predators,Anaheim Ducks,Anaheim Ducks
+2025-10-21,106,Dallas Stars,Columbus Blue Jackets,Columbus Blue Jackets
+2025-10-21,107,Utah Mammoth,Colorado Avalanche,Utah Mammoth
+2025-10-22,108,New Jersey Devils,Minnesota Wild,New Jersey Devils
+2025-10-22,109,Buffalo Sabres,Detroit Red Wings,Buffalo Sabres
+2025-10-22,110,Calgary Flames,Montreal Canadiens,Montreal Canadiens
+2025-10-23,111,Boston Bruins,Anaheim Ducks,Anaheim Ducks
+2025-10-23,112,Ottawa Senators,Philadelphia Flyers,Ottawa Senators
+2025-10-23,113,Tampa Bay Lightning,Chicago Blackhawks,Chicago Blackhawks
+2025-10-23,114,Florida Panthers,Pittsburgh Penguins,Pittsburgh Penguins
+2025-10-23,115,New York Islanders,Detroit Red Wings,New York Islanders
+2025-10-23,116,New York Rangers,San Jose Sharks,San Jose Sharks
+2025-10-23,117,St. Louis Blues,Utah Mammoth,Utah Mammoth
+2025-10-23,118,Nashville Predators,Vancouver Canucks,Nashville Predators
+2025-10-23,119,Dallas Stars,Los Angeles Kings,Los Angeles Kings
+2025-10-23,120,Winnipeg Jets,Seattle Kraken,Seattle Kraken
+2025-10-23,121,Colorado Avalanche,Carolina Hurricanes,Carolina Hurricanes
+2025-10-23,122,Edmonton Oilers,Montreal Canadiens,Edmonton Oilers
+2025-10-24,123,Buffalo Sabres,Toronto Maple Leafs,Buffalo Sabres
+2025-10-24,124,New Jersey Devils,San Jose Sharks,New Jersey Devils
+2025-10-24,125,Columbus Blue Jackets,Washington Capitals,Washington Capitals
+2025-10-24,126,Winnipeg Jets,Calgary Flames,Winnipeg Jets
+2025-10-25,127,Philadelphia Flyers,New York Islanders,Philadelphia Flyers
+2025-10-25,128,Boston Bruins,Colorado Avalanche,Boston Bruins
+2025-10-25,129,Tampa Bay Lightning,Anaheim Ducks,Tampa Bay Lightning
+2025-10-25,130,Florida Panthers,Vegas Golden Knights,Florida Panthers
+2025-10-25,131,Minnesota Wild,Utah Mammoth,Utah Mammoth
+2025-10-25,132,Toronto Maple Leafs,Buffalo Sabres,Toronto Maple Leafs
+2025-10-25,133,Detroit Red Wings,St. Louis Blues,Detroit Red Wings
+2025-10-25,134,Pittsburgh Penguins,Columbus Blue Jackets,Columbus Blue Jackets
+2025-10-25,135,Washington Capitals,Ottawa Senators,Ottawa Senators
+2025-10-25,136,Vancouver Canucks,Montreal Canadiens,Montreal Canadiens
+2025-10-25,137,Nashville Predators,Los Angeles Kings,Nashville Predators
+2025-10-25,138,Dallas Stars,Carolina Hurricanes,Dallas Stars
+2025-10-25,139,Seattle Kraken,Edmonton Oilers,Seattle Kraken
+2025-10-26,140,New Jersey Devils,Colorado Avalanche,New Jersey Devils
+2025-10-26,141,Tampa Bay Lightning,Vegas Golden Knights,Tampa Bay Lightning
+2025-10-26,142,Minnesota Wild,San Jose Sharks,San Jose Sharks
+2025-10-26,143,Winnipeg Jets,Utah Mammoth,Utah Mammoth
+2025-10-26,144,Chicago Blackhawks,Los Angeles Kings,Los Angeles Kings
+2025-10-26,145,Nashville Predators,Dallas Stars,Dallas Stars
+2025-10-26,146,Calgary Flames,New York Rangers,Calgary Flames
+2025-10-26,147,Vancouver Canucks,Edmonton Oilers,Vancouver Canucks
+2025-10-27,148,Pittsburgh Penguins,St. Louis Blues,Pittsburgh Penguins
+2025-10-27,149,Ottawa Senators,Boston Bruins,Ottawa Senators
+2025-10-28,150,Philadelphia Flyers,Pittsburgh Penguins,Philadelphia Flyers
+2025-10-28,151,Toronto Maple Leafs,Calgary Flames,Toronto Maple Leafs
+2025-10-28,152,Buffalo Sabres,Columbus Blue Jackets,Columbus Blue Jackets
+2025-10-28,153,Florida Panthers,Anaheim Ducks,Anaheim Ducks
+2025-10-28,154,Boston Bruins,New York Islanders,Boston Bruins
+2025-10-28,155,Carolina Hurricanes,Vegas Golden Knights,Vegas Golden Knights
+2025-10-28,156,Nashville Predators,Tampa Bay Lightning,Tampa Bay Lightning
+2025-10-28,157,Minnesota Wild,Winnipeg Jets,Winnipeg Jets
+2025-10-28,158,St. Louis Blues,Detroit Red Wings,Detroit Red Wings
+2025-10-28,159,Dallas Stars,Washington Capitals,Dallas Stars
+2025-10-28,160,Chicago Blackhawks,Ottawa Senators,Chicago Blackhawks
+2025-10-28,161,Colorado Avalanche,New Jersey Devils,Colorado Avalanche
+2025-10-28,162,Edmonton Oilers,Utah Mammoth,Edmonton Oilers
+2025-10-28,163,Vancouver Canucks,New York Rangers,New York Rangers
+2025-10-28,164,Seattle Kraken,Montreal Canadiens,Montreal Canadiens
+2025-10-28,165,San Jose Sharks,Los Angeles Kings,Los Angeles Kings
+2025-10-29,166,Columbus Blue Jackets,Toronto Maple Leafs,Columbus Blue Jackets
+2025-10-30,167,Boston Bruins,Buffalo Sabres,Boston Bruins
+2025-10-30,168,Ottawa Senators,Calgary Flames,Ottawa Senators
+2025-10-30,169,Tampa Bay Lightning,Dallas Stars,Tampa Bay Lightning
+2025-10-30,170,Philadelphia Flyers,Nashville Predators,Philadelphia Flyers
+2025-10-30,171,Carolina Hurricanes,New York Islanders,Carolina Hurricanes
+2025-10-30,172,St. Louis Blues,Vancouver Canucks,Vancouver Canucks
+2025-10-30,173,Minnesota Wild,Pittsburgh Penguins,Pittsburgh Penguins
+2025-10-30,174,Winnipeg Jets,Chicago Blackhawks,Winnipeg Jets
+2025-10-30,175,Edmonton Oilers,New York Rangers,New York Rangers
+2025-10-30,176,San Jose Sharks,New Jersey Devils,San Jose Sharks
+2025-10-30,177,Los Angeles Kings,Detroit Red Wings,Detroit Red Wings
+2025-10-31,178,Vegas Golden Knights,Colorado Avalanche,Colorado Avalanche
+2025-10-31,179,Washington Capitals,New York Islanders,New York Islanders
+2025-10-31,180,Anaheim Ducks,Detroit Red Wings,Anaheim Ducks
+2025-11-01,181,Boston Bruins,Carolina Hurricanes,Boston Bruins
+2025-11-01,182,Winnipeg Jets,Pittsburgh Penguins,Winnipeg Jets
+2025-11-01,183,Nashville Predators,Calgary Flames,Nashville Predators
+2025-11-01,184,San Jose Sharks,Colorado Avalanche,San Jose Sharks
+2025-11-01,185,Florida Panthers,Dallas Stars,Florida Panthers
+2025-11-01,186,Buffalo Sabres,Washington Capitals,Buffalo Sabres
+2025-11-01,187,Montreal Canadiens,Ottawa Senators,Montreal Canadiens
+2025-11-01,188,Philadelphia Flyers,Toronto Maple Leafs,Toronto Maple Leafs
+2025-11-01,189,Columbus Blue Jackets,St. Louis Blues,Columbus Blue Jackets
+2025-11-01,190,Minnesota Wild,Vancouver Canucks,Minnesota Wild
+2025-11-01,191,Los Angeles Kings,New Jersey Devils,New Jersey Devils
+2025-11-01,192,Edmonton Oilers,Chicago Blackhawks,Edmonton Oilers
+2025-11-01,193,Seattle Kraken,New York Rangers,New York Rangers
+2025-11-02,194,Utah Mammoth,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-02,195,New York Islanders,Columbus Blue Jackets,New York Islanders
+2025-11-02,196,Philadelphia Flyers,Calgary Flames,Calgary Flames
+2025-11-02,197,Anaheim Ducks,New Jersey Devils,Anaheim Ducks
+2025-11-02,198,San Jose Sharks,Detroit Red Wings,Detroit Red Wings
+2025-11-03,199,Toronto Maple Leafs,Pittsburgh Penguins,Toronto Maple Leafs
+2025-11-03,200,St. Louis Blues,Edmonton Oilers,St. Louis Blues
+2025-11-03,201,Nashville Predators,Vancouver Canucks,Vancouver Canucks
+2025-11-03,202,Seattle Kraken,Chicago Blackhawks,Seattle Kraken
+2025-11-04,203,Buffalo Sabres,Utah Mammoth,Utah Mammoth
+2025-11-04,204,Montreal Canadiens,Philadelphia Flyers,Philadelphia Flyers
+2025-11-04,205,New York Islanders,Boston Bruins,Boston Bruins
+2025-11-04,206,New York Rangers,Carolina Hurricanes,Carolina Hurricanes
+2025-11-04,207,Dallas Stars,Edmonton Oilers,Dallas Stars
+2025-11-04,208,Minnesota Wild,Nashville Predators,Minnesota Wild
+2025-11-04,209,Colorado Avalanche,Tampa Bay Lightning,Colorado Avalanche
+2025-11-04,210,Vegas Golden Knights,Detroit Red Wings,Vegas Golden Knights
+2025-11-04,211,Anaheim Ducks,Florida Panthers,Anaheim Ducks
+2025-11-04,212,Los Angeles Kings,Winnipeg Jets,Los Angeles Kings
+2025-11-05,213,Toronto Maple Leafs,Utah Mammoth,Toronto Maple Leafs
+2025-11-05,214,Washington Capitals,St. Louis Blues,Washington Capitals
+2025-11-05,215,Calgary Flames,Columbus Blue Jackets,Calgary Flames
+2025-11-05,216,Vancouver Canucks,Chicago Blackhawks,Chicago Blackhawks
+2025-11-05,217,Seattle Kraken,San Jose Sharks,San Jose Sharks
+2025-11-06,218,Boston Bruins,Ottawa Senators,Boston Bruins
+2025-11-06,219,Buffalo Sabres,St. Louis Blues,St. Louis Blues
+2025-11-06,220,New Jersey Devils,Montreal Canadiens,New Jersey Devils
+2025-11-06,221,Pittsburgh Penguins,Washington Capitals,Pittsburgh Penguins
+2025-11-06,222,Carolina Hurricanes,Minnesota Wild,Carolina Hurricanes
+2025-11-06,223,Nashville Predators,Philadelphia Flyers,Philadelphia Flyers
+2025-11-06,224,Dallas Stars,Anaheim Ducks,Anaheim Ducks
+2025-11-06,225,Vegas Golden Knights,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-06,226,Los Angeles Kings,Florida Panthers,Florida Panthers
+2025-11-07,227,Detroit Red Wings,New York Rangers,New York Rangers
+2025-11-07,228,New York Islanders,Minnesota Wild,Minnesota Wild
+2025-11-07,229,Calgary Flames,Chicago Blackhawks,Chicago Blackhawks
+2025-11-07,230,San Jose Sharks,Winnipeg Jets,San Jose Sharks
+2025-11-08,231,New Jersey Devils,Pittsburgh Penguins,New Jersey Devils
+2025-11-08,232,Philadelphia Flyers,Ottawa Senators,Ottawa Senators
+2025-11-08,233,Nashville Predators,Dallas Stars,Dallas Stars
+2025-11-08,234,Toronto Maple Leafs,Boston Bruins,Boston Bruins
+2025-11-08,235,Montreal Canadiens,Utah Mammoth,Montreal Canadiens
+2025-11-08,236,Tampa Bay Lightning,Washington Capitals,Tampa Bay Lightning
+2025-11-08,237,New York Rangers,New York Islanders,New York Islanders
+2025-11-08,238,Carolina Hurricanes,Buffalo Sabres,Carolina Hurricanes
+2025-11-08,239,St. Louis Blues,Seattle Kraken,Seattle Kraken
+2025-11-08,240,Edmonton Oilers,Colorado Avalanche,Colorado Avalanche
+2025-11-08,241,Vancouver Canucks,Columbus Blue Jackets,Vancouver Canucks
+2025-11-08,242,Vegas Golden Knights,Anaheim Ducks,Anaheim Ducks
+2025-11-08,243,San Jose Sharks,Florida Panthers,San Jose Sharks
+2025-11-09,244,Detroit Red Wings,Chicago Blackhawks,Chicago Blackhawks
+2025-11-09,245,Pittsburgh Penguins,Los Angeles Kings,Los Angeles Kings
+2025-11-09,246,Toronto Maple Leafs,Carolina Hurricanes,Carolina Hurricanes
+2025-11-09,247,Ottawa Senators,Utah Mammoth,Ottawa Senators
+2025-11-09,248,Dallas Stars,Seattle Kraken,Dallas Stars
+2025-11-09,249,Minnesota Wild,Calgary Flames,Minnesota Wild
+2025-11-09,250,Vancouver Canucks,Colorado Avalanche,Colorado Avalanche
+2025-11-09,251,Anaheim Ducks,Winnipeg Jets,Anaheim Ducks
+2025-11-10,252,New Jersey Devils,New York Islanders,New York Islanders
+2025-11-10,253,New York Rangers,Nashville Predators,New York Rangers
+2025-11-10,254,Edmonton Oilers,Columbus Blue Jackets,Edmonton Oilers
+2025-11-10,255,Vegas Golden Knights,Florida Panthers,Florida Panthers
+2025-11-11,256,Boston Bruins,Toronto Maple Leafs,Boston Bruins
+2025-11-11,257,Montreal Canadiens,Los Angeles Kings,Los Angeles Kings
+2025-11-11,258,Ottawa Senators,Dallas Stars,Dallas Stars
+2025-11-11,259,Carolina Hurricanes,Washington Capitals,Washington Capitals
+2025-11-11,260,St. Louis Blues,Calgary Flames,St. Louis Blues
+2025-11-11,261,Minnesota Wild,San Jose Sharks,San Jose Sharks
+2025-11-11,262,Colorado Avalanche,Anaheim Ducks,Colorado Avalanche
+2025-11-11,263,Vancouver Canucks,Winnipeg Jets,Winnipeg Jets
+2025-11-11,264,Seattle Kraken,Columbus Blue Jackets,Columbus Blue Jackets
+2025-11-12,265,Tampa Bay Lightning,New York Rangers,New York Rangers
+2025-11-12,266,Philadelphia Flyers,Edmonton Oilers,Edmonton Oilers
+2025-11-12,267,Utah Mammoth,Buffalo Sabres,Utah Mammoth
+2025-11-12,268,Chicago Blackhawks,New Jersey Devils,New Jersey Devils
+2025-11-13,269,Toronto Maple Leafs,Los Angeles Kings,Los Angeles Kings
+2025-11-13,270,Montreal Canadiens,Dallas Stars,Dallas Stars
+2025-11-13,271,Ottawa Senators,Boston Bruins,Ottawa Senators
+2025-11-13,272,Detroit Red Wings,Anaheim Ducks,Detroit Red Wings
+2025-11-13,273,Florida Panthers,Washington Capitals,Florida Panthers
+2025-11-13,274,Columbus Blue Jackets,Edmonton Oilers,Columbus Blue Jackets
+2025-11-13,275,Colorado Avalanche,Buffalo Sabres,Colorado Avalanche
+2025-11-13,276,Calgary Flames,San Jose Sharks,Calgary Flames
+2025-11-13,277,Vegas Golden Knights,New York Islanders,New York Islanders
+2025-11-13,278,Seattle Kraken,Winnipeg Jets,Seattle Kraken
+2025-11-14,279,Nashville Predators,Pittsburgh Penguins,Nashville Predators
+2025-11-14,280,Carolina Hurricanes,Vancouver Canucks,Carolina Hurricanes
+2025-11-14,281,St. Louis Blues,Philadelphia Flyers,Philadelphia Flyers
+2025-11-14,282,Utah Mammoth,New York Islanders,New York Islanders
+2025-11-15,283,Florida Panthers,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-15,284,Minnesota Wild,Anaheim Ducks,Minnesota Wild
+2025-11-15,285,Montreal Canadiens,Boston Bruins,Boston Bruins
+2025-11-15,286,Ottawa Senators,Los Angeles Kings,Los Angeles Kings
+2025-11-15,287,Detroit Red Wings,Buffalo Sabres,Buffalo Sabres
+2025-11-15,288,Washington Capitals,New Jersey Devils,New Jersey Devils
+2025-11-15,289,Carolina Hurricanes,Edmonton Oilers,Edmonton Oilers
+2025-11-15,290,Columbus Blue Jackets,New York Rangers,New York Rangers
+2025-11-15,291,Chicago Blackhawks,Toronto Maple Leafs,Chicago Blackhawks
+2025-11-15,292,St. Louis Blues,Vegas Golden Knights,Vegas Golden Knights
+2025-11-15,293,Dallas Stars,Philadelphia Flyers,Dallas Stars
+2025-11-15,294,Calgary Flames,Winnipeg Jets,Winnipeg Jets
+2025-11-15,295,Seattle Kraken,San Jose Sharks,Seattle Kraken
+2025-11-16,296,Pittsburgh Penguins,Nashville Predators,Pittsburgh Penguins
+2025-11-16,297,Tampa Bay Lightning,Vancouver Canucks,Vancouver Canucks
+2025-11-16,298,Minnesota Wild,Vegas Golden Knights,Minnesota Wild
+2025-11-16,299,New York Rangers,Detroit Red Wings,Detroit Red Wings
+2025-11-16,300,Colorado Avalanche,New York Islanders,Colorado Avalanche
+2025-11-17,301,Boston Bruins,Carolina Hurricanes,Carolina Hurricanes
+2025-11-17,302,Buffalo Sabres,Edmonton Oilers,Buffalo Sabres
+2025-11-17,303,Florida Panthers,Vancouver Canucks,Florida Panthers
+2025-11-17,304,Washington Capitals,Los Angeles Kings,Washington Capitals
+2025-11-17,305,Columbus Blue Jackets,Montreal Canadiens,Columbus Blue Jackets
+2025-11-17,306,Anaheim Ducks,Utah Mammoth,Anaheim Ducks
+2025-11-18,307,Toronto Maple Leafs,St. Louis Blues,Toronto Maple Leafs
+2025-11-18,308,Detroit Red Wings,Seattle Kraken,Detroit Red Wings
+2025-11-18,309,Tampa Bay Lightning,New Jersey Devils,Tampa Bay Lightning
+2025-11-18,310,Dallas Stars,New York Islanders,New York Islanders
+2025-11-18,311,Winnipeg Jets,Columbus Blue Jackets,Winnipeg Jets
+2025-11-18,312,Chicago Blackhawks,Calgary Flames,Chicago Blackhawks
+2025-11-18,313,Vegas Golden Knights,New York Rangers,Vegas Golden Knights
+2025-11-18,314,San Jose Sharks,Utah Mammoth,San Jose Sharks
+2025-11-19,315,Washington Capitals,Edmonton Oilers,Washington Capitals
+2025-11-19,316,Buffalo Sabres,Calgary Flames,Calgary Flames
+2025-11-19,317,Minnesota Wild,Carolina Hurricanes,Minnesota Wild
+2025-11-19,318,Anaheim Ducks,Boston Bruins,Anaheim Ducks
+2025-11-20,319,Toronto Maple Leafs,Columbus Blue Jackets,Columbus Blue Jackets
+2025-11-20,320,Montreal Canadiens,Washington Capitals,Washington Capitals
+2025-11-20,321,Detroit Red Wings,New York Islanders,New York Islanders
+2025-11-20,322,Tampa Bay Lightning,Edmonton Oilers,Edmonton Oilers
+2025-11-20,323,Florida Panthers,New Jersey Devils,New Jersey Devils
+2025-11-20,324,Philadelphia Flyers,St. Louis Blues,St. Louis Blues
+2025-11-20,325,Chicago Blackhawks,Seattle Kraken,Seattle Kraken
+2025-11-20,326,Colorado Avalanche,New York Rangers,New York Rangers
+2025-11-20,327,Utah Mammoth,Vegas Golden Knights,Vegas Golden Knights
+2025-11-20,328,Vancouver Canucks,Dallas Stars,Dallas Stars
+2025-11-20,329,Anaheim Ducks,Ottawa Senators,Ottawa Senators
+2025-11-20,330,San Jose Sharks,Los Angeles Kings,Los Angeles Kings
+2025-11-21,331,Buffalo Sabres,Chicago Blackhawks,Chicago Blackhawks
+2025-11-21,332,Pittsburgh Penguins,Minnesota Wild,Minnesota Wild
+2025-11-21,333,Winnipeg Jets,Carolina Hurricanes,Carolina Hurricanes
+2025-11-21,334,Los Angeles Kings,Boston Bruins,Boston Bruins
+2025-11-22,335,Detroit Red Wings,Columbus Blue Jackets,Columbus Blue Jackets
+2025-11-22,336,New York Islanders,St. Louis Blues,St. Louis Blues
+2025-11-22,337,Montreal Canadiens,Toronto Maple Leafs,Toronto Maple Leafs
+2025-11-22,338,Florida Panthers,Edmonton Oilers,Edmonton Oilers
+2025-11-22,339,Philadelphia Flyers,New Jersey Devils,New Jersey Devils
+2025-11-22,340,Pittsburgh Penguins,Seattle Kraken,Seattle Kraken
+2025-11-22,341,Washington Capitals,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-22,342,San Jose Sharks,Ottawa Senators,Ottawa Senators
+2025-11-22,343,Nashville Predators,Colorado Avalanche,Colorado Avalanche
+2025-11-22,344,Utah Mammoth,New York Rangers,New York Rangers
+2025-11-22,345,Calgary Flames,Dallas Stars,Dallas Stars
+2025-11-22,346,Anaheim Ducks,Vegas Golden Knights,Vegas Golden Knights
+2025-11-23,347,Buffalo Sabres,Carolina Hurricanes,Carolina Hurricanes
+2025-11-23,348,Winnipeg Jets,Minnesota Wild,Minnesota Wild
+2025-11-23,349,New York Islanders,Seattle Kraken,Seattle Kraken
+2025-11-23,350,Chicago Blackhawks,Colorado Avalanche,Colorado Avalanche
+2025-11-23,351,San Jose Sharks,Boston Bruins,Boston Bruins
+2025-11-23,352,Vancouver Canucks,Calgary Flames,Calgary Flames
+2025-11-24,353,Tampa Bay Lightning,Philadelphia Flyers,Philadelphia Flyers
+2025-11-24,354,New Jersey Devils,Detroit Red Wings,Detroit Red Wings
+2025-11-24,355,New York Rangers,St. Louis Blues,St. Louis Blues
+2025-11-24,356,Washington Capitals,Columbus Blue Jackets,Columbus Blue Jackets
+2025-11-24,357,Nashville Predators,Florida Panthers,Florida Panthers
+2025-11-24,358,Utah Mammoth,Vegas Golden Knights,Vegas Golden Knights
+2025-11-24,359,Los Angeles Kings,Ottawa Senators,Ottawa Senators
+2025-11-25,360,Edmonton Oilers,Dallas Stars,Dallas Stars
+2025-11-26,361,Detroit Red Wings,Nashville Predators,Nashville Predators
+2025-11-26,362,Tampa Bay Lightning,Calgary Flames,Calgary Flames
+2025-11-26,363,Florida Panthers,Philadelphia Flyers,Philadelphia Flyers
+2025-11-26,364,New Jersey Devils,St. Louis Blues,St. Louis Blues
+2025-11-26,365,New York Islanders,Boston Bruins,Boston Bruins
+2025-11-26,366,Pittsburgh Penguins,Buffalo Sabres,Buffalo Sabres
+2025-11-26,367,Washington Capitals,Winnipeg Jets,Winnipeg Jets
+2025-11-26,368,Carolina Hurricanes,New York Rangers,New York Rangers
+2025-11-26,369,Columbus Blue Jackets,Toronto Maple Leafs,Toronto Maple Leafs
+2025-11-26,370,Chicago Blackhawks,Minnesota Wild,Minnesota Wild
+2025-11-26,371,Colorado Avalanche,San Jose Sharks,San Jose Sharks
+2025-11-26,372,Utah Mammoth,Montreal Canadiens,Montreal Canadiens
+2025-11-26,373,Vegas Golden Knights,Ottawa Senators,Ottawa Senators
+2025-11-26,374,Anaheim Ducks,Vancouver Canucks,Vancouver Canucks
+2025-11-26,375,Seattle Kraken,Dallas Stars,Dallas Stars
+2025-11-28,376,Boston Bruins,New York Rangers,New York Rangers
+2025-11-28,377,Detroit Red Wings,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-28,378,Minnesota Wild,Colorado Avalanche,Colorado Avalanche
+2025-11-28,379,Buffalo Sabres,New Jersey Devils,New Jersey Devils
+2025-11-28,380,Florida Panthers,Calgary Flames,Calgary Flames
+2025-11-28,381,New York Islanders,Philadelphia Flyers,Philadelphia Flyers
+2025-11-28,382,St. Louis Blues,Ottawa Senators,Ottawa Senators
+2025-11-28,383,Vegas Golden Knights,Montreal Canadiens,Montreal Canadiens
+2025-11-28,384,Anaheim Ducks,Los Angeles Kings,Los Angeles Kings
+2025-11-28,385,San Jose Sharks,Vancouver Canucks,Vancouver Canucks
+2025-11-28,386,Washington Capitals,Toronto Maple Leafs,Toronto Maple Leafs
+2025-11-28,387,Carolina Hurricanes,Winnipeg Jets,Winnipeg Jets
+2025-11-28,388,Columbus Blue Jackets,Pittsburgh Penguins,Pittsburgh Penguins
+2025-11-28,389,Chicago Blackhawks,Nashville Predators,Nashville Predators
+2025-11-28,390,Dallas Stars,Utah Mammoth,Utah Mammoth
+2025-11-29,391,New York Rangers,Tampa Bay Lightning,Tampa Bay Lightning
+2025-11-29,392,Colorado Avalanche,Montreal Canadiens,Montreal Canadiens
+2025-11-29,393,Seattle Kraken,Edmonton Oilers,Edmonton Oilers
+2025-11-29,394,Boston Bruins,Detroit Red Wings,Detroit Red Wings
+2025-11-29,395,New Jersey Devils,Philadelphia Flyers,Philadelphia Flyers
+2025-11-29,396,Pittsburgh Penguins,Toronto Maple Leafs,Toronto Maple Leafs
+2025-11-29,397,Nashville Predators,Winnipeg Jets,Winnipeg Jets
+2025-11-29,398,St. Louis Blues,Utah Mammoth,Utah Mammoth
+2025-11-29,399,Minnesota Wild,Buffalo Sabres,Buffalo Sabres
+2025-11-29,400,Vegas Golden Knights,San Jose Sharks,San Jose Sharks
+2025-11-29,401,Los Angeles Kings,Vancouver Canucks,Vancouver Canucks
+2025-11-30,402,New York Islanders,Washington Capitals,Washington Capitals
+2025-11-30,403,Chicago Blackhawks,Anaheim Ducks,Anaheim Ducks
+2025-11-30,404,Carolina Hurricanes,Calgary Flames,Calgary Flames
+2025-11-30,405,Dallas Stars,Ottawa Senators,Ottawa Senators
+2025-12-01,406,New Jersey Devils,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-01,407,Philadelphia Flyers,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-01,408,Buffalo Sabres,Winnipeg Jets,Winnipeg Jets
+2025-12-01,409,St. Louis Blues,Anaheim Ducks,Anaheim Ducks
+2025-12-01,410,San Jose Sharks,Utah Mammoth,Utah Mammoth
+2025-12-02,411,Montreal Canadiens,Ottawa Senators,Ottawa Senators
+2025-12-02,412,Detroit Red Wings,Boston Bruins,Boston Bruins
+2025-12-02,413,Florida Panthers,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-02,414,New York Islanders,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-02,415,New York Rangers,Dallas Stars,Dallas Stars
+2025-12-02,416,Nashville Predators,Calgary Flames,Calgary Flames
+2025-12-02,417,Colorado Avalanche,Vancouver Canucks,Vancouver Canucks
+2025-12-02,418,Edmonton Oilers,Minnesota Wild,Minnesota Wild
+2025-12-02,419,Vegas Golden Knights,Chicago Blackhawks,Chicago Blackhawks
+2025-12-02,420,Los Angeles Kings,Washington Capitals,Washington Capitals
+2025-12-03,421,New Jersey Devils,Dallas Stars,Dallas Stars
+2025-12-03,422,Montreal Canadiens,Winnipeg Jets,Winnipeg Jets
+2025-12-03,423,Philadelphia Flyers,Buffalo Sabres,Buffalo Sabres
+2025-12-03,424,Anaheim Ducks,Utah Mammoth,Utah Mammoth
+2025-12-03,425,San Jose Sharks,Washington Capitals,Washington Capitals
+2025-12-04,426,Boston Bruins,St. Louis Blues,St. Louis Blues
+2025-12-04,427,Ottawa Senators,New York Rangers,New York Rangers
+2025-12-04,428,Tampa Bay Lightning,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-04,429,Florida Panthers,Nashville Predators,Nashville Predators
+2025-12-04,430,New York Islanders,Colorado Avalanche,Colorado Avalanche
+2025-12-04,431,Carolina Hurricanes,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-04,432,Columbus Blue Jackets,Detroit Red Wings,Detroit Red Wings
+2025-12-04,433,Calgary Flames,Minnesota Wild,Minnesota Wild
+2025-12-04,434,Edmonton Oilers,Seattle Kraken,Seattle Kraken
+2025-12-04,435,Los Angeles Kings,Chicago Blackhawks,Chicago Blackhawks
+2025-12-05,436,New Jersey Devils,Vegas Golden Knights,Vegas Golden Knights
+2025-12-05,437,Winnipeg Jets,Buffalo Sabres,Buffalo Sabres
+2025-12-05,438,Dallas Stars,San Jose Sharks,San Jose Sharks
+2025-12-05,439,Vancouver Canucks,Utah Mammoth,Utah Mammoth
+2025-12-05,440,Anaheim Ducks,Washington Capitals,Washington Capitals
+2025-12-06,441,New York Rangers,Colorado Avalanche,Colorado Avalanche
+2025-12-06,442,Florida Panthers,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-06,443,Boston Bruins,New Jersey Devils,New Jersey Devils
+2025-12-06,444,Toronto Maple Leafs,Montreal Canadiens,Montreal Canadiens
+2025-12-06,445,Ottawa Senators,St. Louis Blues,St. Louis Blues
+2025-12-06,446,Tampa Bay Lightning,New York Islanders,New York Islanders
+2025-12-06,447,Carolina Hurricanes,Nashville Predators,Nashville Predators
+2025-12-06,448,Calgary Flames,Utah Mammoth,Utah Mammoth
+2025-12-06,449,Los Angeles Kings,Chicago Blackhawks,Chicago Blackhawks
+2025-12-06,450,Edmonton Oilers,Winnipeg Jets,Winnipeg Jets
+2025-12-06,451,Vancouver Canucks,Minnesota Wild,Minnesota Wild
+2025-12-06,452,Seattle Kraken,Detroit Red Wings,Detroit Red Wings
+2025-12-07,453,Philadelphia Flyers,Colorado Avalanche,Colorado Avalanche
+2025-12-07,454,Florida Panthers,New York Islanders,New York Islanders
+2025-12-07,455,Carolina Hurricanes,San Jose Sharks,San Jose Sharks
+2025-12-07,456,Dallas Stars,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-07,457,Montreal Canadiens,St. Louis Blues,St. Louis Blues
+2025-12-07,458,New York Rangers,Vegas Golden Knights,Vegas Golden Knights
+2025-12-07,459,Washington Capitals,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-07,460,Anaheim Ducks,Chicago Blackhawks,Chicago Blackhawks
+2025-12-08,461,Toronto Maple Leafs,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-08,462,Utah Mammoth,Los Angeles Kings,Los Angeles Kings
+2025-12-08,463,Calgary Flames,Buffalo Sabres,Buffalo Sabres
+2025-12-08,464,Vancouver Canucks,Detroit Red Wings,Detroit Red Wings
+2025-12-08,465,Seattle Kraken,Minnesota Wild,Minnesota Wild
+2025-12-09,466,Montreal Canadiens,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-09,467,Ottawa Senators,New Jersey Devils,New Jersey Devils
+2025-12-09,468,New York Islanders,Vegas Golden Knights,Vegas Golden Knights
+2025-12-09,469,Philadelphia Flyers,San Jose Sharks,San Jose Sharks
+2025-12-09,470,Pittsburgh Penguins,Anaheim Ducks,Anaheim Ducks
+2025-12-09,471,Carolina Hurricanes,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-09,472,St. Louis Blues,Boston Bruins,Boston Bruins
+2025-12-09,473,Winnipeg Jets,Dallas Stars,Dallas Stars
+2025-12-09,474,Edmonton Oilers,Buffalo Sabres,Buffalo Sabres
+2025-12-09,475,Nashville Predators,Colorado Avalanche,Colorado Avalanche
+2025-12-10,476,Chicago Blackhawks,New York Rangers,New York Rangers
+2025-12-10,477,Calgary Flames,Detroit Red Wings,Detroit Red Wings
+2025-12-10,478,Utah Mammoth,Florida Panthers,Florida Panthers
+2025-12-10,479,Seattle Kraken,Los Angeles Kings,Los Angeles Kings
+2025-12-11,480,Toronto Maple Leafs,San Jose Sharks,San Jose Sharks
+2025-12-11,481,New Jersey Devils,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-11,482,New York Islanders,Anaheim Ducks,Anaheim Ducks
+2025-12-11,483,Philadelphia Flyers,Vegas Golden Knights,Vegas Golden Knights
+2025-12-11,484,Pittsburgh Penguins,Montreal Canadiens,Montreal Canadiens
+2025-12-11,485,Washington Capitals,Carolina Hurricanes,Carolina Hurricanes
+2025-12-11,486,Columbus Blue Jackets,Ottawa Senators,Ottawa Senators
+2025-12-11,487,Nashville Predators,St. Louis Blues,St. Louis Blues
+2025-12-11,488,Minnesota Wild,Dallas Stars,Dallas Stars
+2025-12-11,489,Winnipeg Jets,Boston Bruins,Boston Bruins
+2025-12-11,490,Colorado Avalanche,Florida Panthers,Florida Panthers
+2025-12-11,491,Edmonton Oilers,Detroit Red Wings,Detroit Red Wings
+2025-12-11,492,Vancouver Canucks,Buffalo Sabres,Buffalo Sabres
+2025-12-12,493,St. Louis Blues,Chicago Blackhawks,Chicago Blackhawks
+2025-12-12,494,Utah Mammoth,Seattle Kraken,Seattle Kraken
+2025-12-13,495,New Jersey Devils,Anaheim Ducks,Anaheim Ducks
+2025-12-13,496,Minnesota Wild,Ottawa Senators,Ottawa Senators
+2025-12-13,497,Pittsburgh Penguins,San Jose Sharks,San Jose Sharks
+2025-12-13,498,New York Islanders,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-13,499,Toronto Maple Leafs,Edmonton Oilers,Edmonton Oilers
+2025-12-13,500,New York Rangers,Montreal Canadiens,Montreal Canadiens
+2025-12-13,501,Philadelphia Flyers,Carolina Hurricanes,Carolina Hurricanes
+2025-12-13,502,Columbus Blue Jackets,Vegas Golden Knights,Vegas Golden Knights
+2025-12-13,503,Winnipeg Jets,Washington Capitals,Washington Capitals
+2025-12-13,504,Chicago Blackhawks,Detroit Red Wings,Detroit Red Wings
+2025-12-13,505,Dallas Stars,Florida Panthers,Florida Panthers
+2025-12-13,506,Colorado Avalanche,Nashville Predators,Nashville Predators
+2025-12-13,507,Los Angeles Kings,Calgary Flames,Calgary Flames
+2025-12-14,508,New Jersey Devils,Vancouver Canucks,Vancouver Canucks
+2025-12-14,509,Pittsburgh Penguins,Utah Mammoth,Utah Mammoth
+2025-12-14,510,Carolina Hurricanes,Philadelphia Flyers,Philadelphia Flyers
+2025-12-14,511,Minnesota Wild,Boston Bruins,Boston Bruins
+2025-12-14,512,Montreal Canadiens,Edmonton Oilers,Edmonton Oilers
+2025-12-14,513,Seattle Kraken,Buffalo Sabres,Buffalo Sabres
+2025-12-15,514,Tampa Bay Lightning,Florida Panthers,Florida Panthers
+2025-12-15,515,New York Rangers,Anaheim Ducks,Anaheim Ducks
+2025-12-15,516,Winnipeg Jets,Ottawa Senators,Ottawa Senators
+2025-12-15,517,St. Louis Blues,Nashville Predators,Nashville Predators
+2025-12-15,518,Dallas Stars,Los Angeles Kings,Los Angeles Kings
+2025-12-16,519,Boston Bruins,Utah Mammoth,Utah Mammoth
+2025-12-16,520,Toronto Maple Leafs,Chicago Blackhawks,Chicago Blackhawks
+2025-12-16,521,Montreal Canadiens,Philadelphia Flyers,Philadelphia Flyers
+2025-12-16,522,Detroit Red Wings,New York Islanders,New York Islanders
+2025-12-16,523,New York Rangers,Vancouver Canucks,Vancouver Canucks
+2025-12-16,524,Pittsburgh Penguins,Edmonton Oilers,Edmonton Oilers
+2025-12-16,525,Columbus Blue Jackets,Anaheim Ducks,Anaheim Ducks
+2025-12-16,526,Minnesota Wild,Washington Capitals,Washington Capitals
+2025-12-16,527,San Jose Sharks,Calgary Flames,Calgary Flames
+2025-12-16,528,Seattle Kraken,Colorado Avalanche,Colorado Avalanche
+2025-12-17,529,Florida Panthers,Los Angeles Kings,Los Angeles Kings
+2025-12-17,530,Detroit Red Wings,Utah Mammoth,Utah Mammoth
+2025-12-17,531,St. Louis Blues,Winnipeg Jets,Winnipeg Jets
+2025-12-17,532,Nashville Predators,Carolina Hurricanes,Carolina Hurricanes
+2025-12-17,533,Vegas Golden Knights,New Jersey Devils,New Jersey Devils
+2025-12-18,534,Boston Bruins,Edmonton Oilers,Edmonton Oilers
+2025-12-18,535,Buffalo Sabres,Philadelphia Flyers,Philadelphia Flyers
+2025-12-18,536,Montreal Canadiens,Chicago Blackhawks,Chicago Blackhawks
+2025-12-18,537,Ottawa Senators,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-18,538,Tampa Bay Lightning,Los Angeles Kings,Los Angeles Kings
+2025-12-18,539,Washington Capitals,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-18,540,Columbus Blue Jackets,Minnesota Wild,Minnesota Wild
+2025-12-18,541,St. Louis Blues,New York Rangers,New York Rangers
+2025-12-18,542,Calgary Flames,Seattle Kraken,Seattle Kraken
+2025-12-18,543,San Jose Sharks,Dallas Stars,Dallas Stars
+2025-12-19,544,Florida Panthers,Carolina Hurricanes,Carolina Hurricanes
+2025-12-19,545,New York Islanders,Vancouver Canucks,Vancouver Canucks
+2025-12-19,546,Colorado Avalanche,Winnipeg Jets,Winnipeg Jets
+2025-12-19,547,Utah Mammoth,New Jersey Devils,New Jersey Devils
+2025-12-19,548,Anaheim Ducks,Dallas Stars,Dallas Stars
+2025-12-20,549,New York Rangers,Philadelphia Flyers,Philadelphia Flyers
+2025-12-20,550,Washington Capitals,Detroit Red Wings,Detroit Red Wings
+2025-12-20,551,Ottawa Senators,Chicago Blackhawks,Chicago Blackhawks
+2025-12-20,552,Minnesota Wild,Edmonton Oilers,Edmonton Oilers
+2025-12-20,553,Buffalo Sabres,New York Islanders,New York Islanders
+2025-12-20,554,Florida Panthers,St. Louis Blues,St. Louis Blues
+2025-12-20,555,Boston Bruins,Vancouver Canucks,Vancouver Canucks
+2025-12-20,556,Montreal Canadiens,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-20,557,Tampa Bay Lightning,Carolina Hurricanes,Carolina Hurricanes
+2025-12-20,558,Nashville Predators,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-20,559,Calgary Flames,Vegas Golden Knights,Vegas Golden Knights
+2025-12-20,560,Anaheim Ducks,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-20,561,San Jose Sharks,Seattle Kraken,Seattle Kraken
+2025-12-21,562,Detroit Red Wings,Washington Capitals,Washington Capitals
+2025-12-21,563,Minnesota Wild,Colorado Avalanche,Colorado Avalanche
+2025-12-21,564,Boston Bruins,Ottawa Senators,Ottawa Senators
+2025-12-21,565,New Jersey Devils,Buffalo Sabres,Buffalo Sabres
+2025-12-21,566,Pittsburgh Penguins,Montreal Canadiens,Montreal Canadiens
+2025-12-21,567,Nashville Predators,New York Rangers,New York Rangers
+2025-12-21,568,Dallas Stars,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-21,569,Utah Mammoth,Winnipeg Jets,Winnipeg Jets
+2025-12-21,570,Edmonton Oilers,Vegas Golden Knights,Vegas Golden Knights
+2025-12-22,571,Tampa Bay Lightning,St. Louis Blues,St. Louis Blues
+2025-12-22,572,Philadelphia Flyers,Vancouver Canucks,Vancouver Canucks
+2025-12-22,573,Anaheim Ducks,Seattle Kraken,Seattle Kraken
+2025-12-22,574,Los Angeles Kings,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-23,575,Toronto Maple Leafs,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-23,576,Washington Capitals,New York Rangers,New York Rangers
+2025-12-23,577,Boston Bruins,Montreal Canadiens,Montreal Canadiens
+2025-12-23,578,Ottawa Senators,Buffalo Sabres,Buffalo Sabres
+2025-12-23,579,Detroit Red Wings,Dallas Stars,Dallas Stars
+2025-12-23,580,New York Islanders,New Jersey Devils,New Jersey Devils
+2025-12-23,581,Carolina Hurricanes,Florida Panthers,Florida Panthers
+2025-12-23,582,Minnesota Wild,Nashville Predators,Nashville Predators
+2025-12-23,583,Chicago Blackhawks,Philadelphia Flyers,Philadelphia Flyers
+2025-12-23,584,Colorado Avalanche,Utah Mammoth,Utah Mammoth
+2025-12-23,585,Edmonton Oilers,Calgary Flames,Calgary Flames
+2025-12-23,586,Vegas Golden Knights,San Jose Sharks,San Jose Sharks
+2025-12-23,587,Los Angeles Kings,Seattle Kraken,Seattle Kraken
+2025-12-27,588,New York Islanders,New York Rangers,New York Rangers
+2025-12-27,589,Buffalo Sabres,Boston Bruins,Boston Bruins
+2025-12-27,590,Toronto Maple Leafs,Ottawa Senators,Ottawa Senators
+2025-12-27,591,Florida Panthers,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-27,592,New Jersey Devils,Washington Capitals,Washington Capitals
+2025-12-27,593,Carolina Hurricanes,Detroit Red Wings,Detroit Red Wings
+2025-12-27,594,Winnipeg Jets,Minnesota Wild,Minnesota Wild
+2025-12-27,595,St. Louis Blues,Nashville Predators,Nashville Predators
+2025-12-27,596,Dallas Stars,Chicago Blackhawks,Chicago Blackhawks
+2025-12-27,597,Los Angeles Kings,Anaheim Ducks,Anaheim Ducks
+2025-12-27,598,Calgary Flames,Edmonton Oilers,Edmonton Oilers
+2025-12-27,599,Vancouver Canucks,San Jose Sharks,San Jose Sharks
+2025-12-27,600,Vegas Golden Knights,Colorado Avalanche,Colorado Avalanche
+2025-12-28,601,Detroit Red Wings,Toronto Maple Leafs,Toronto Maple Leafs
+2025-12-28,602,Tampa Bay Lightning,Montreal Canadiens,Montreal Canadiens
+2025-12-28,603,Columbus Blue Jackets,New York Islanders,New York Islanders
+2025-12-28,604,Chicago Blackhawks,Pittsburgh Penguins,Pittsburgh Penguins
+2025-12-28,605,Seattle Kraken,Philadelphia Flyers,Philadelphia Flyers
+2025-12-29,606,Ottawa Senators,Columbus Blue Jackets,Columbus Blue Jackets
+2025-12-29,607,Florida Panthers,Washington Capitals,Washington Capitals
+2025-12-29,608,Carolina Hurricanes,New York Rangers,New York Rangers
+2025-12-29,609,Winnipeg Jets,Edmonton Oilers,Edmonton Oilers
+2025-12-29,610,St. Louis Blues,Buffalo Sabres,Buffalo Sabres
+2025-12-29,611,Colorado Avalanche,Los Angeles Kings,Los Angeles Kings
+2025-12-29,612,Utah Mammoth,Nashville Predators,Nashville Predators
+2025-12-29,613,Calgary Flames,Boston Bruins,Boston Bruins
+2025-12-29,614,Vegas Golden Knights,Minnesota Wild,Minnesota Wild
+2025-12-29,615,Anaheim Ducks,San Jose Sharks,San Jose Sharks
+2025-12-29,616,Seattle Kraken,Vancouver Canucks,Vancouver Canucks
+2025-12-30,617,Toronto Maple Leafs,New Jersey Devils,New Jersey Devils
+2025-12-30,618,Florida Panthers,Montreal Canadiens,Montreal Canadiens
+2025-12-30,619,Pittsburgh Penguins,Carolina Hurricanes,Carolina Hurricanes
+2025-12-30,620,Chicago Blackhawks,New York Islanders,New York Islanders
+2025-12-30,621,Vancouver Canucks,Philadelphia Flyers,Philadelphia Flyers
+2025-12-31,622,Washington Capitals,New York Rangers,New York Rangers
+2025-12-31,623,Vegas Golden Knights,Nashville Predators,Nashville Predators
+2025-12-31,624,Anaheim Ducks,Tampa Bay Lightning,Tampa Bay Lightning
+2025-12-31,625,San Jose Sharks,Minnesota Wild,Minnesota Wild
+2025-12-31,626,Detroit Red Wings,Winnipeg Jets,Winnipeg Jets
+2025-12-31,627,Columbus Blue Jackets,New Jersey Devils,New Jersey Devils
+2025-12-31,628,Dallas Stars,Buffalo Sabres,Buffalo Sabres
+2025-12-31,629,Colorado Avalanche,St. Louis Blues,St. Louis Blues
+2025-12-31,630,Calgary Flames,Philadelphia Flyers,Philadelphia Flyers
+2025-12-31,631,Edmonton Oilers,Boston Bruins,Boston Bruins
+2026-01-01,632,Ottawa Senators,Washington Capitals,Washington Capitals
+2026-01-01,633,New York Islanders,Utah Mammoth,Utah Mammoth
+2026-01-01,634,Toronto Maple Leafs,Winnipeg Jets,Winnipeg Jets
+2026-01-01,635,Pittsburgh Penguins,Detroit Red Wings,Detroit Red Wings
+2026-01-01,636,Carolina Hurricanes,Montreal Canadiens,Montreal Canadiens
+2026-01-01,637,Chicago Blackhawks,Dallas Stars,Dallas Stars
+2026-01-01,638,Seattle Kraken,Nashville Predators,Nashville Predators
+2026-01-01,639,Los Angeles Kings,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-02,640,St. Louis Blues,Vegas Golden Knights,Vegas Golden Knights
+2026-01-02,641,Florida Panthers,New York Rangers,New York Rangers
+2026-01-02,642,Vancouver Canucks,Seattle Kraken,Seattle Kraken
+2026-01-02,643,Anaheim Ducks,Minnesota Wild,Minnesota Wild
+2026-01-03,644,Detroit Red Wings,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-03,645,New Jersey Devils,Utah Mammoth,Utah Mammoth
+2026-01-03,646,Columbus Blue Jackets,Buffalo Sabres,Buffalo Sabres
+2026-01-03,647,Edmonton Oilers,Philadelphia Flyers,Philadelphia Flyers
+2026-01-03,648,St. Louis Blues,Montreal Canadiens,Montreal Canadiens
+2026-01-03,649,San Jose Sharks,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-03,650,Ottawa Senators,Winnipeg Jets,Winnipeg Jets
+2026-01-03,651,New York Islanders,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-03,652,Washington Capitals,Chicago Blackhawks,Chicago Blackhawks
+2026-01-03,653,Carolina Hurricanes,Colorado Avalanche,Colorado Avalanche
+2026-01-03,654,Calgary Flames,Nashville Predators,Nashville Predators
+2026-01-03,655,Los Angeles Kings,Minnesota Wild,Minnesota Wild
+2026-01-03,656,Vancouver Canucks,Boston Bruins,Boston Bruins
+2026-01-04,657,Dallas Stars,Montreal Canadiens,Montreal Canadiens
+2026-01-04,658,Columbus Blue Jackets,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-04,659,Florida Panthers,Colorado Avalanche,Colorado Avalanche
+2026-01-04,660,New Jersey Devils,Carolina Hurricanes,Carolina Hurricanes
+2026-01-04,661,Chicago Blackhawks,Vegas Golden Knights,Vegas Golden Knights
+2026-01-05,662,New York Rangers,Utah Mammoth,Utah Mammoth
+2026-01-05,663,Washington Capitals,Anaheim Ducks,Anaheim Ducks
+2026-01-05,664,Ottawa Senators,Detroit Red Wings,Detroit Red Wings
+2026-01-05,665,Calgary Flames,Seattle Kraken,Seattle Kraken
+2026-01-05,666,Los Angeles Kings,Minnesota Wild,Minnesota Wild
+2026-01-06,667,Buffalo Sabres,Vancouver Canucks,Vancouver Canucks
+2026-01-06,668,Tampa Bay Lightning,Colorado Avalanche,Colorado Avalanche
+2026-01-06,669,New York Islanders,New Jersey Devils,New Jersey Devils
+2026-01-06,670,Philadelphia Flyers,Anaheim Ducks,Anaheim Ducks
+2026-01-06,671,Carolina Hurricanes,Dallas Stars,Dallas Stars
+2026-01-06,672,Toronto Maple Leafs,Florida Panthers,Florida Panthers
+2026-01-06,673,Winnipeg Jets,Vegas Golden Knights,Vegas Golden Knights
+2026-01-06,674,Edmonton Oilers,Nashville Predators,Nashville Predators
+2026-01-06,675,San Jose Sharks,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-06,676,Seattle Kraken,Boston Bruins,Boston Bruins
+2026-01-07,677,Washington Capitals,Dallas Stars,Dallas Stars
+2026-01-07,678,Montreal Canadiens,Calgary Flames,Calgary Flames
+2026-01-07,679,Chicago Blackhawks,St. Louis Blues,St. Louis Blues
+2026-01-07,680,Utah Mammoth,Ottawa Senators,Ottawa Senators
+2026-01-07,681,Los Angeles Kings,San Jose Sharks,San Jose Sharks
+2026-01-08,682,Boston Bruins,Calgary Flames,Calgary Flames
+2026-01-08,683,Montreal Canadiens,Florida Panthers,Florida Panthers
+2026-01-08,684,Detroit Red Wings,Vancouver Canucks,Vancouver Canucks
+2026-01-08,685,New York Rangers,Buffalo Sabres,Buffalo Sabres
+2026-01-08,686,Philadelphia Flyers,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-08,687,Pittsburgh Penguins,New Jersey Devils,New Jersey Devils
+2026-01-08,688,Carolina Hurricanes,Anaheim Ducks,Anaheim Ducks
+2026-01-08,689,Nashville Predators,New York Islanders,New York Islanders
+2026-01-08,690,Winnipeg Jets,Edmonton Oilers,Edmonton Oilers
+2026-01-08,691,Colorado Avalanche,Ottawa Senators,Ottawa Senators
+2026-01-08,692,Vegas Golden Knights,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-08,693,Seattle Kraken,Minnesota Wild,Minnesota Wild
+2026-01-09,694,Chicago Blackhawks,Washington Capitals,Washington Capitals
+2026-01-09,695,Winnipeg Jets,Los Angeles Kings,Los Angeles Kings
+2026-01-09,696,Utah Mammoth,St. Louis Blues,St. Louis Blues
+2026-01-10,697,Boston Bruins,New York Rangers,New York Rangers
+2026-01-10,698,Pittsburgh Penguins,Calgary Flames,Calgary Flames
+2026-01-10,699,Colorado Avalanche,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-10,700,San Jose Sharks,Dallas Stars,Dallas Stars
+2026-01-10,701,Buffalo Sabres,Anaheim Ducks,Anaheim Ducks
+2026-01-10,702,Toronto Maple Leafs,Vancouver Canucks,Vancouver Canucks
+2026-01-10,703,Montreal Canadiens,Detroit Red Wings,Detroit Red Wings
+2026-01-10,704,Ottawa Senators,Florida Panthers,Florida Panthers
+2026-01-10,705,Philadelphia Flyers,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-10,706,Carolina Hurricanes,Seattle Kraken,Seattle Kraken
+2026-01-10,707,Nashville Predators,Chicago Blackhawks,Chicago Blackhawks
+2026-01-10,708,Minnesota Wild,New York Islanders,New York Islanders
+2026-01-10,709,Edmonton Oilers,Los Angeles Kings,Los Angeles Kings
+2026-01-10,710,Vegas Golden Knights,St. Louis Blues,St. Louis Blues
+2026-01-11,711,Winnipeg Jets,New Jersey Devils,New Jersey Devils
+2026-01-11,712,Boston Bruins,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-11,713,Nashville Predators,Washington Capitals,Washington Capitals
+2026-01-11,714,Utah Mammoth,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-11,715,San Jose Sharks,Vegas Golden Knights,Vegas Golden Knights
+2026-01-12,716,Buffalo Sabres,Florida Panthers,Florida Panthers
+2026-01-12,717,Detroit Red Wings,Carolina Hurricanes,Carolina Hurricanes
+2026-01-12,718,New York Rangers,Seattle Kraken,Seattle Kraken
+2026-01-12,719,Philadelphia Flyers,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-12,720,Montreal Canadiens,Vancouver Canucks,Vancouver Canucks
+2026-01-12,721,Minnesota Wild,New Jersey Devils,New Jersey Devils
+2026-01-12,722,Chicago Blackhawks,Edmonton Oilers,Edmonton Oilers
+2026-01-12,723,Colorado Avalanche,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-12,724,Los Angeles Kings,Dallas Stars,Dallas Stars
+2026-01-13,725,Ottawa Senators,Vancouver Canucks,Vancouver Canucks
+2026-01-13,726,Pittsburgh Penguins,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-13,727,Washington Capitals,Montreal Canadiens,Montreal Canadiens
+2026-01-13,728,Columbus Blue Jackets,Calgary Flames,Calgary Flames
+2026-01-13,729,Boston Bruins,Detroit Red Wings,Detroit Red Wings
+2026-01-13,730,St. Louis Blues,Carolina Hurricanes,Carolina Hurricanes
+2026-01-13,731,Nashville Predators,Edmonton Oilers,Edmonton Oilers
+2026-01-13,732,Winnipeg Jets,New York Islanders,New York Islanders
+2026-01-13,733,Utah Mammoth,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-13,734,Anaheim Ducks,Dallas Stars,Dallas Stars
+2026-01-14,735,New Jersey Devils,Seattle Kraken,Seattle Kraken
+2026-01-14,736,Buffalo Sabres,Philadelphia Flyers,Philadelphia Flyers
+2026-01-14,737,New York Rangers,Ottawa Senators,Ottawa Senators
+2026-01-14,738,Los Angeles Kings,Vegas Golden Knights,Vegas Golden Knights
+2026-01-15,739,Boston Bruins,Seattle Kraken,Seattle Kraken
+2026-01-15,740,Buffalo Sabres,Montreal Canadiens,Montreal Canadiens
+2026-01-15,741,Pittsburgh Penguins,Philadelphia Flyers,Philadelphia Flyers
+2026-01-15,742,Washington Capitals,San Jose Sharks,San Jose Sharks
+2026-01-15,743,Columbus Blue Jackets,Vancouver Canucks,Vancouver Canucks
+2026-01-15,744,Minnesota Wild,Winnipeg Jets,Winnipeg Jets
+2026-01-15,745,Chicago Blackhawks,Calgary Flames,Calgary Flames
+2026-01-15,746,Utah Mammoth,Dallas Stars,Dallas Stars
+2026-01-15,747,Edmonton Oilers,New York Islanders,New York Islanders
+2026-01-15,748,Vegas Golden Knights,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-16,749,Detroit Red Wings,San Jose Sharks,San Jose Sharks
+2026-01-16,750,Carolina Hurricanes,Florida Panthers,Florida Panthers
+2026-01-16,751,St. Louis Blues,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-16,752,Colorado Avalanche,Nashville Predators,Nashville Predators
+2026-01-16,753,Los Angeles Kings,Anaheim Ducks,Anaheim Ducks
+2026-01-17,754,Buffalo Sabres,Minnesota Wild,Minnesota Wild
+2026-01-17,755,Philadelphia Flyers,New York Rangers,New York Rangers
+2026-01-17,756,Calgary Flames,New York Islanders,New York Islanders
+2026-01-17,757,Utah Mammoth,Seattle Kraken,Seattle Kraken
+2026-01-17,758,Ottawa Senators,Montreal Canadiens,Montreal Canadiens
+2026-01-17,759,New Jersey Devils,Carolina Hurricanes,Carolina Hurricanes
+2026-01-17,760,Pittsburgh Penguins,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-17,761,Washington Capitals,Florida Panthers,Florida Panthers
+2026-01-17,762,Winnipeg Jets,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-17,763,Chicago Blackhawks,Boston Bruins,Boston Bruins
+2026-01-17,764,Vancouver Canucks,Edmonton Oilers,Edmonton Oilers
+2026-01-17,765,Vegas Golden Knights,Nashville Predators,Nashville Predators
+2026-01-17,766,Anaheim Ducks,Los Angeles Kings,Los Angeles Kings
+2026-01-18,767,Dallas Stars,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-18,768,Detroit Red Wings,Ottawa Senators,Ottawa Senators
+2026-01-18,769,Edmonton Oilers,St. Louis Blues,St. Louis Blues
+2026-01-19,770,Carolina Hurricanes,Buffalo Sabres,Buffalo Sabres
+2026-01-19,771,Colorado Avalanche,Washington Capitals,Washington Capitals
+2026-01-19,772,Seattle Kraken,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-19,773,Florida Panthers,San Jose Sharks,San Jose Sharks
+2026-01-19,774,Toronto Maple Leafs,Minnesota Wild,Minnesota Wild
+2026-01-19,775,Vegas Golden Knights,Philadelphia Flyers,Philadelphia Flyers
+2026-01-19,776,Chicago Blackhawks,Winnipeg Jets,Winnipeg Jets
+2026-01-19,777,Calgary Flames,New Jersey Devils,New Jersey Devils
+2026-01-19,778,Vancouver Canucks,New York Islanders,New York Islanders
+2026-01-19,779,Anaheim Ducks,New York Rangers,New York Rangers
+2026-01-20,780,Montreal Canadiens,Minnesota Wild,Minnesota Wild
+2026-01-20,781,Tampa Bay Lightning,San Jose Sharks,San Jose Sharks
+2026-01-20,782,Columbus Blue Jackets,Ottawa Senators,Ottawa Senators
+2026-01-20,783,Dallas Stars,Boston Bruins,Boston Bruins
+2026-01-20,784,Nashville Predators,Buffalo Sabres,Buffalo Sabres
+2026-01-20,785,Winnipeg Jets,St. Louis Blues,St. Louis Blues
+2026-01-20,786,Edmonton Oilers,New Jersey Devils,New Jersey Devils
+2026-01-20,787,Los Angeles Kings,New York Rangers,New York Rangers
+2026-01-21,788,Toronto Maple Leafs,Detroit Red Wings,Detroit Red Wings
+2026-01-21,789,Colorado Avalanche,Anaheim Ducks,Anaheim Ducks
+2026-01-21,790,Utah Mammoth,Philadelphia Flyers,Philadelphia Flyers
+2026-01-21,791,Calgary Flames,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-21,792,Vancouver Canucks,Washington Capitals,Washington Capitals
+2026-01-21,793,Seattle Kraken,New York Islanders,New York Islanders
+2026-01-22,794,Boston Bruins,Vegas Golden Knights,Vegas Golden Knights
+2026-01-22,795,Montreal Canadiens,Buffalo Sabres,Buffalo Sabres
+2026-01-22,796,Carolina Hurricanes,Chicago Blackhawks,Chicago Blackhawks
+2026-01-22,797,Columbus Blue Jackets,Dallas Stars,Dallas Stars
+2026-01-22,798,Nashville Predators,Ottawa Senators,Ottawa Senators
+2026-01-22,799,Winnipeg Jets,Florida Panthers,Florida Panthers
+2026-01-22,800,Edmonton Oilers,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-22,801,Minnesota Wild,Detroit Red Wings,Detroit Red Wings
+2026-01-23,802,Toronto Maple Leafs,Vegas Golden Knights,Vegas Golden Knights
+2026-01-23,803,Chicago Blackhawks,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-23,804,Dallas Stars,St. Louis Blues,St. Louis Blues
+2026-01-23,805,Colorado Avalanche,Philadelphia Flyers,Philadelphia Flyers
+2026-01-23,806,Calgary Flames,Washington Capitals,Washington Capitals
+2026-01-23,807,Vancouver Canucks,New Jersey Devils,New Jersey Devils
+2026-01-23,808,San Jose Sharks,New York Rangers,New York Rangers
+2026-01-23,809,Seattle Kraken,Anaheim Ducks,Anaheim Ducks
+2026-01-24,810,New York Islanders,Buffalo Sabres,Buffalo Sabres
+2026-01-24,811,Nashville Predators,Utah Mammoth,Utah Mammoth
+2026-01-24,812,Boston Bruins,Montreal Canadiens,Montreal Canadiens
+2026-01-24,813,Ottawa Senators,Carolina Hurricanes,Carolina Hurricanes
+2026-01-24,814,Columbus Blue Jackets,Tampa Bay Lightning,Tampa Bay Lightning
+2026-01-24,815,Winnipeg Jets,Detroit Red Wings,Detroit Red Wings
+2026-01-24,816,St. Louis Blues,Los Angeles Kings,Los Angeles Kings
+2026-01-24,817,Minnesota Wild,Florida Panthers,Florida Panthers
+2026-01-24,818,Edmonton Oilers,Washington Capitals,Washington Capitals
+2026-01-25,819,Toronto Maple Leafs,Colorado Avalanche,Colorado Avalanche
+2026-01-25,820,Seattle Kraken,New Jersey Devils,New Jersey Devils
+2026-01-25,821,Ottawa Senators,Vegas Golden Knights,Vegas Golden Knights
+2026-01-25,822,Vancouver Canucks,Pittsburgh Penguins,Pittsburgh Penguins
+2026-01-25,823,Chicago Blackhawks,Florida Panthers,Florida Panthers
+2026-01-25,824,Calgary Flames,Anaheim Ducks,Anaheim Ducks
+2026-01-26,825,Tampa Bay Lightning,Utah Mammoth,Utah Mammoth
+2026-01-26,826,New York Rangers,Boston Bruins,Boston Bruins
+2026-01-26,827,Philadelphia Flyers,New York Islanders,New York Islanders
+2026-01-26,828,Columbus Blue Jackets,Los Angeles Kings,Los Angeles Kings
+2026-01-26,829,Edmonton Oilers,Anaheim Ducks,Anaheim Ducks
+2026-01-27,830,Boston Bruins,Nashville Predators,Nashville Predators
+2026-01-27,831,Toronto Maple Leafs,Buffalo Sabres,Buffalo Sabres
+2026-01-27,832,Montreal Canadiens,Vegas Golden Knights,Vegas Golden Knights
+2026-01-27,833,Detroit Red Wings,Los Angeles Kings,Los Angeles Kings
+2026-01-27,834,Florida Panthers,Utah Mammoth,Utah Mammoth
+2026-01-27,835,New Jersey Devils,Winnipeg Jets,Winnipeg Jets
+2026-01-27,836,St. Louis Blues,Dallas Stars,Dallas Stars
+2026-01-27,837,Minnesota Wild,Chicago Blackhawks,Chicago Blackhawks
+2026-01-27,838,Vancouver Canucks,San Jose Sharks,San Jose Sharks
+2026-01-27,839,Seattle Kraken,Washington Capitals,Washington Capitals
+2026-01-28,840,Columbus Blue Jackets,Philadelphia Flyers,Philadelphia Flyers
+2026-01-28,841,Ottawa Senators,Colorado Avalanche,Colorado Avalanche
+2026-01-28,842,New York Islanders,New York Rangers,New York Rangers
+2026-01-29,843,Boston Bruins,Philadelphia Flyers,Philadelphia Flyers
+2026-01-29,844,Buffalo Sabres,Los Angeles Kings,Los Angeles Kings
+2026-01-29,845,Montreal Canadiens,Colorado Avalanche,Colorado Avalanche
+2026-01-29,846,Detroit Red Wings,Washington Capitals,Washington Capitals
+2026-01-29,847,Tampa Bay Lightning,Winnipeg Jets,Winnipeg Jets
+2026-01-29,848,New Jersey Devils,Nashville Predators,Nashville Predators
+2026-01-29,849,New York Rangers,New York Islanders,New York Islanders
+2026-01-29,850,Pittsburgh Penguins,Chicago Blackhawks,Chicago Blackhawks
+2026-01-29,851,Carolina Hurricanes,Utah Mammoth,Utah Mammoth
+2026-01-29,852,St. Louis Blues,Florida Panthers,Florida Panthers
+2026-01-29,853,Minnesota Wild,Calgary Flames,Calgary Flames
+2026-01-29,854,Edmonton Oilers,San Jose Sharks,San Jose Sharks
+2026-01-29,855,Vancouver Canucks,Anaheim Ducks,Anaheim Ducks
+2026-01-29,856,Vegas Golden Knights,Dallas Stars,Dallas Stars
+2026-01-29,857,Seattle Kraken,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-30,858,Chicago Blackhawks,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-31,859,Philadelphia Flyers,Los Angeles Kings,Los Angeles Kings
+2026-01-31,860,Detroit Red Wings,Colorado Avalanche,Colorado Avalanche
+2026-01-31,861,Pittsburgh Penguins,New York Rangers,New York Rangers
+2026-01-31,862,Florida Panthers,Winnipeg Jets,Winnipeg Jets
+2026-01-31,863,Calgary Flames,San Jose Sharks,San Jose Sharks
+2026-01-31,864,Washington Capitals,Carolina Hurricanes,Carolina Hurricanes
+2026-01-31,865,Buffalo Sabres,Montreal Canadiens,Montreal Canadiens
+2026-01-31,866,Ottawa Senators,New Jersey Devils,New Jersey Devils
+2026-01-31,867,New York Islanders,Nashville Predators,Nashville Predators
+2026-01-31,868,St. Louis Blues,Columbus Blue Jackets,Columbus Blue Jackets
+2026-01-31,869,Vancouver Canucks,Toronto Maple Leafs,Toronto Maple Leafs
+2026-01-31,870,Utah Mammoth,Dallas Stars,Dallas Stars
+2026-01-31,871,Edmonton Oilers,Minnesota Wild,Minnesota Wild
+2026-01-31,872,Vegas Golden Knights,Seattle Kraken,Seattle Kraken
+2026-02-01,873,Tampa Bay Lightning,Boston Bruins,Boston Bruins
+2026-02-01,874,Carolina Hurricanes,Los Angeles Kings,Los Angeles Kings
+2026-02-01,875,Anaheim Ducks,Vegas Golden Knights,Vegas Golden Knights
+2026-02-02,876,Florida Panthers,Buffalo Sabres,Buffalo Sabres
+2026-02-02,877,Pittsburgh Penguins,Ottawa Senators,Ottawa Senators
+2026-02-02,878,Washington Capitals,New York Islanders,New York Islanders
+2026-02-02,879,Minnesota Wild,Montreal Canadiens,Montreal Canadiens
+2026-02-02,880,Nashville Predators,St. Louis Blues,St. Louis Blues
+2026-02-02,881,Chicago Blackhawks,San Jose Sharks,San Jose Sharks
+2026-02-02,882,Dallas Stars,Winnipeg Jets,Winnipeg Jets
+2026-02-02,883,Colorado Avalanche,Detroit Red Wings,Detroit Red Wings
+2026-02-02,884,Utah Mammoth,Vancouver Canucks,Vancouver Canucks
+2026-02-02,885,Calgary Flames,Toronto Maple Leafs,Toronto Maple Leafs
+2026-02-03,886,Tampa Bay Lightning,Buffalo Sabres,Buffalo Sabres
+2026-02-03,887,New Jersey Devils,Columbus Blue Jackets,Columbus Blue Jackets
+2026-02-03,888,New York Islanders,Pittsburgh Penguins,Pittsburgh Penguins
+2026-02-03,889,Philadelphia Flyers,Washington Capitals,Washington Capitals
+2026-02-03,890,Carolina Hurricanes,Ottawa Senators,Ottawa Senators
+2026-02-03,891,Edmonton Oilers,Toronto Maple Leafs,Toronto Maple Leafs
+2026-02-03,892,Anaheim Ducks,Seattle Kraken,Seattle Kraken
+2026-02-04,893,Florida Panthers,Boston Bruins,Boston Bruins
+2026-02-04,894,Columbus Blue Jackets,Chicago Blackhawks,Chicago Blackhawks
+2026-02-04,895,Winnipeg Jets,Montreal Canadiens,Montreal Canadiens
+2026-02-04,896,Nashville Predators,Minnesota Wild,Minnesota Wild
+2026-02-04,897,Colorado Avalanche,San Jose Sharks,San Jose Sharks
+2026-02-04,898,Utah Mammoth,Detroit Red Wings,Detroit Red Wings
+2026-02-04,899,Dallas Stars,St. Louis Blues,St. Louis Blues
+2026-02-04,900,Calgary Flames,Edmonton Oilers,Edmonton Oilers
+2026-02-04,901,Vegas Golden Knights,Vancouver Canucks,Vancouver Canucks
+2026-02-04,902,Los Angeles Kings,Seattle Kraken,Seattle Kraken
+2026-02-05,903,Buffalo Sabres,Pittsburgh Penguins,Pittsburgh Penguins
+2026-02-05,904,Tampa Bay Lightning,Florida Panthers,Florida Panthers
+2026-02-05,905,New Jersey Devils,New York Islanders,New York Islanders
+2026-02-05,906,New York Rangers,Carolina Hurricanes,Carolina Hurricanes
+2026-02-05,907,Philadelphia Flyers,Ottawa Senators,Ottawa Senators
+2026-02-05,908,Washington Capitals,Nashville Predators,Nashville Predators
+2026-02-05,909,Vegas Golden Knights,Los Angeles Kings,Los Angeles Kings
+2026-02-25,910,New Jersey Devils,Buffalo Sabres,Buffalo Sabres
+2026-02-25,911,Washington Capitals,Philadelphia Flyers,Philadelphia Flyers
+2026-02-25,912,Tampa Bay Lightning,Toronto Maple Leafs,Toronto Maple Leafs
+2026-02-25,913,Dallas Stars,Seattle Kraken,Seattle Kraken
+2026-02-25,914,Utah Mammoth,Colorado Avalanche,Colorado Avalanche
+2026-02-25,915,Vancouver Canucks,Winnipeg Jets,Winnipeg Jets
+2026-02-25,916,Los Angeles Kings,Vegas Golden Knights,Vegas Golden Knights
+2026-02-25,917,Anaheim Ducks,Edmonton Oilers,Edmonton Oilers
+2026-02-26,918,Boston Bruins,Columbus Blue Jackets,Columbus Blue Jackets
+2026-02-26,919,Montreal Canadiens,New York Islanders,New York Islanders
+2026-02-26,920,Ottawa Senators,Detroit Red Wings,Detroit Red Wings
+2026-02-26,921,Florida Panthers,Toronto Maple Leafs,Toronto Maple Leafs
+2026-02-26,922,Pittsburgh Penguins,New Jersey Devils,New Jersey Devils
+2026-02-26,923,Carolina Hurricanes,Tampa Bay Lightning,Tampa Bay Lightning
+2026-02-26,924,New York Rangers,Philadelphia Flyers,Philadelphia Flyers
+2026-02-26,925,St. Louis Blues,Seattle Kraken,Seattle Kraken
+2026-02-26,926,Nashville Predators,Chicago Blackhawks,Chicago Blackhawks
+2026-02-26,927,Colorado Avalanche,Minnesota Wild,Minnesota Wild
+2026-02-26,928,San Jose Sharks,Calgary Flames,Calgary Flames
+2026-02-26,929,Los Angeles Kings,Edmonton Oilers,Edmonton Oilers
+2026-02-27,930,Florida Panthers,Buffalo Sabres,Buffalo Sabres
+2026-02-27,931,Washington Capitals,Vegas Golden Knights,Vegas Golden Knights
+2026-02-27,932,Utah Mammoth,Minnesota Wild,Minnesota Wild
+2026-02-27,933,Anaheim Ducks,Winnipeg Jets,Winnipeg Jets
+2026-02-28,934,New York Rangers,Pittsburgh Penguins,Pittsburgh Penguins
+2026-02-28,935,Philadelphia Flyers,Boston Bruins,Boston Bruins
+2026-02-28,936,San Jose Sharks,Edmonton Oilers,Edmonton Oilers
+2026-02-28,937,Columbus Blue Jackets,New York Islanders,New York Islanders
+2026-02-28,938,Colorado Avalanche,Chicago Blackhawks,Chicago Blackhawks
+2026-02-28,939,Toronto Maple Leafs,Ottawa Senators,Ottawa Senators
+2026-02-28,940,Montreal Canadiens,Washington Capitals,Washington Capitals
+2026-02-28,941,Tampa Bay Lightning,Buffalo Sabres,Buffalo Sabres
+2026-02-28,942,Carolina Hurricanes,Detroit Red Wings,Detroit Red Wings
+2026-02-28,943,St. Louis Blues,New Jersey Devils,New Jersey Devils
+2026-02-28,944,Los Angeles Kings,Calgary Flames,Calgary Flames
+2026-02-28,945,Dallas Stars,Nashville Predators,Nashville Predators
+2026-02-28,946,Seattle Kraken,Vancouver Canucks,Vancouver Canucks
+2026-03-01,947,Pittsburgh Penguins,Vegas Golden Knights,Vegas Golden Knights
+2026-03-01,948,New York Islanders,Florida Panthers,Florida Panthers
+2026-03-01,949,Utah Mammoth,Chicago Blackhawks,Chicago Blackhawks
+2026-03-01,950,San Jose Sharks,Winnipeg Jets,Winnipeg Jets
+2026-03-01,951,Minnesota Wild,St. Louis Blues,St. Louis Blues
+2026-03-01,952,Anaheim Ducks,Calgary Flames,Calgary Flames
+2026-03-02,953,New York Rangers,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-02,954,Toronto Maple Leafs,Philadelphia Flyers,Philadelphia Flyers
+2026-03-02,955,Nashville Predators,Detroit Red Wings,Detroit Red Wings
+2026-03-02,956,Vancouver Canucks,Dallas Stars,Dallas Stars
+2026-03-02,957,Seattle Kraken,Carolina Hurricanes,Carolina Hurricanes
+2026-03-02,958,Los Angeles Kings,Colorado Avalanche,Colorado Avalanche
+2026-03-03,959,Boston Bruins,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-03,960,Buffalo Sabres,Vegas Golden Knights,Vegas Golden Knights
+2026-03-03,961,New Jersey Devils,Florida Panthers,Florida Panthers
+2026-03-03,962,Washington Capitals,Utah Mammoth,Utah Mammoth
+2026-03-03,963,Columbus Blue Jackets,Nashville Predators,Nashville Predators
+2026-03-03,964,Winnipeg Jets,Chicago Blackhawks,Chicago Blackhawks
+2026-03-03,965,Calgary Flames,Dallas Stars,Dallas Stars
+2026-03-03,966,Edmonton Oilers,Ottawa Senators,Ottawa Senators
+2026-03-03,967,Minnesota Wild,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-03,968,Anaheim Ducks,Colorado Avalanche,Colorado Avalanche
+2026-03-03,969,San Jose Sharks,Montreal Canadiens,Montreal Canadiens
+2026-03-04,970,Detroit Red Wings,Vegas Golden Knights,Vegas Golden Knights
+2026-03-04,971,New Jersey Devils,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-04,972,Vancouver Canucks,Carolina Hurricanes,Carolina Hurricanes
+2026-03-04,973,Anaheim Ducks,New York Islanders,New York Islanders
+2026-03-04,974,Seattle Kraken,St. Louis Blues,St. Louis Blues
+2026-03-05,975,New York Rangers,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-05,976,Philadelphia Flyers,Utah Mammoth,Utah Mammoth
+2026-03-05,977,Pittsburgh Penguins,Buffalo Sabres,Buffalo Sabres
+2026-03-05,978,Columbus Blue Jackets,Florida Panthers,Florida Panthers
+2026-03-05,979,Nashville Predators,Boston Bruins,Boston Bruins
+2026-03-05,980,Winnipeg Jets,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-05,981,Calgary Flames,Ottawa Senators,Ottawa Senators
+2026-03-05,982,Los Angeles Kings,New York Islanders,New York Islanders
+2026-03-06,983,Detroit Red Wings,Florida Panthers,Florida Panthers
+2026-03-06,984,Dallas Stars,Colorado Avalanche,Colorado Avalanche
+2026-03-06,985,Chicago Blackhawks,Vancouver Canucks,Vancouver Canucks
+2026-03-06,986,Edmonton Oilers,Carolina Hurricanes,Carolina Hurricanes
+2026-03-06,987,Anaheim Ducks,Montreal Canadiens,Montreal Canadiens
+2026-03-06,988,Vegas Golden Knights,Minnesota Wild,Minnesota Wild
+2026-03-06,989,San Jose Sharks,St. Louis Blues,St. Louis Blues
+2026-03-07,990,Boston Bruins,Washington Capitals,Washington Capitals
+2026-03-07,991,New Jersey Devils,New York Rangers,New York Rangers
+2026-03-07,992,Buffalo Sabres,Nashville Predators,Nashville Predators
+2026-03-07,993,Pittsburgh Penguins,Philadelphia Flyers,Philadelphia Flyers
+2026-03-07,994,Toronto Maple Leafs,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-07,995,Columbus Blue Jackets,Utah Mammoth,Utah Mammoth
+2026-03-07,996,Winnipeg Jets,Vancouver Canucks,Vancouver Canucks
+2026-03-07,997,Los Angeles Kings,Montreal Canadiens,Montreal Canadiens
+2026-03-07,998,Calgary Flames,Carolina Hurricanes,Carolina Hurricanes
+2026-03-07,999,San Jose Sharks,New York Islanders,New York Islanders
+2026-03-07,1000,Seattle Kraken,Ottawa Senators,Ottawa Senators
+2026-03-08,1001,Colorado Avalanche,Minnesota Wild,Minnesota Wild
+2026-03-08,1002,Pittsburgh Penguins,Boston Bruins,Boston Bruins
+2026-03-08,1003,Buffalo Sabres,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-08,1004,Dallas Stars,Chicago Blackhawks,Chicago Blackhawks
+2026-03-08,1005,New Jersey Devils,Detroit Red Wings,Detroit Red Wings
+2026-03-08,1006,Anaheim Ducks,St. Louis Blues,St. Louis Blues
+2026-03-08,1007,Vegas Golden Knights,Edmonton Oilers,Edmonton Oilers
+2026-03-09,1008,Philadelphia Flyers,New York Rangers,New York Rangers
+2026-03-09,1009,Washington Capitals,Calgary Flames,Calgary Flames
+2026-03-09,1010,Chicago Blackhawks,Utah Mammoth,Utah Mammoth
+2026-03-09,1011,Vancouver Canucks,Ottawa Senators,Ottawa Senators
+2026-03-10,1012,Boston Bruins,Los Angeles Kings,Los Angeles Kings
+2026-03-10,1013,Buffalo Sabres,San Jose Sharks,San Jose Sharks
+2026-03-10,1014,Montreal Canadiens,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-10,1015,Tampa Bay Lightning,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-10,1016,Florida Panthers,Detroit Red Wings,Detroit Red Wings
+2026-03-10,1017,New York Rangers,Calgary Flames,Calgary Flames
+2026-03-10,1018,Carolina Hurricanes,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-10,1019,St. Louis Blues,New York Islanders,New York Islanders
+2026-03-10,1020,Dallas Stars,Vegas Golden Knights,Vegas Golden Knights
+2026-03-10,1021,Minnesota Wild,Utah Mammoth,Utah Mammoth
+2026-03-10,1022,Winnipeg Jets,Anaheim Ducks,Anaheim Ducks
+2026-03-10,1023,Colorado Avalanche,Edmonton Oilers,Edmonton Oilers
+2026-03-10,1024,Seattle Kraken,Nashville Predators,Nashville Predators
+2026-03-11,1025,Ottawa Senators,Montreal Canadiens,Montreal Canadiens
+2026-03-11,1026,Philadelphia Flyers,Washington Capitals,Washington Capitals
+2026-03-12,1027,Boston Bruins,San Jose Sharks,San Jose Sharks
+2026-03-12,1028,Buffalo Sabres,Washington Capitals,Washington Capitals
+2026-03-12,1029,Toronto Maple Leafs,Anaheim Ducks,Anaheim Ducks
+2026-03-12,1030,Tampa Bay Lightning,Detroit Red Wings,Detroit Red Wings
+2026-03-12,1031,Florida Panthers,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-12,1032,New Jersey Devils,Calgary Flames,Calgary Flames
+2026-03-12,1033,Carolina Hurricanes,St. Louis Blues,St. Louis Blues
+2026-03-12,1034,Dallas Stars,Edmonton Oilers,Edmonton Oilers
+2026-03-12,1035,Minnesota Wild,Philadelphia Flyers,Philadelphia Flyers
+2026-03-12,1036,Winnipeg Jets,New York Rangers,New York Rangers
+2026-03-12,1037,Utah Mammoth,Chicago Blackhawks,Chicago Blackhawks
+2026-03-12,1038,Vancouver Canucks,Nashville Predators,Nashville Predators
+2026-03-12,1039,Vegas Golden Knights,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-12,1040,Seattle Kraken,Colorado Avalanche,Colorado Avalanche
+2026-03-13,1041,New York Islanders,Los Angeles Kings,Los Angeles Kings
+2026-03-13,1042,St. Louis Blues,Edmonton Oilers,Edmonton Oilers
+2026-03-14,1043,Ottawa Senators,Anaheim Ducks,Anaheim Ducks
+2026-03-14,1044,Washington Capitals,Boston Bruins,Boston Bruins
+2026-03-14,1045,Winnipeg Jets,Colorado Avalanche,Colorado Avalanche
+2026-03-14,1046,Minnesota Wild,New York Rangers,New York Rangers
+2026-03-14,1047,Buffalo Sabres,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-14,1048,Montreal Canadiens,San Jose Sharks,San Jose Sharks
+2026-03-14,1049,Tampa Bay Lightning,Carolina Hurricanes,Carolina Hurricanes
+2026-03-14,1050,New Jersey Devils,Los Angeles Kings,Los Angeles Kings
+2026-03-14,1051,New York Islanders,Calgary Flames,Calgary Flames
+2026-03-14,1052,Philadelphia Flyers,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-14,1053,Dallas Stars,Detroit Red Wings,Detroit Red Wings
+2026-03-14,1054,Utah Mammoth,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-14,1055,Vancouver Canucks,Seattle Kraken,Seattle Kraken
+2026-03-14,1056,Vegas Golden Knights,Chicago Blackhawks,Chicago Blackhawks
+2026-03-15,1057,Winnipeg Jets,St. Louis Blues,St. Louis Blues
+2026-03-15,1058,Ottawa Senators,San Jose Sharks,San Jose Sharks
+2026-03-15,1059,Montreal Canadiens,Anaheim Ducks,Anaheim Ducks
+2026-03-15,1060,Minnesota Wild,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-15,1061,Edmonton Oilers,Nashville Predators,Nashville Predators
+2026-03-15,1062,Seattle Kraken,Florida Panthers,Florida Panthers
+2026-03-16,1063,Detroit Red Wings,Calgary Flames,Calgary Flames
+2026-03-16,1064,New Jersey Devils,Boston Bruins,Boston Bruins
+2026-03-16,1065,New York Rangers,Los Angeles Kings,Los Angeles Kings
+2026-03-16,1066,Dallas Stars,Utah Mammoth,Utah Mammoth
+2026-03-16,1067,Colorado Avalanche,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-17,1068,Toronto Maple Leafs,New York Islanders,New York Islanders
+2026-03-17,1069,Montreal Canadiens,Boston Bruins,Boston Bruins
+2026-03-17,1070,Columbus Blue Jackets,Carolina Hurricanes,Carolina Hurricanes
+2026-03-17,1071,Winnipeg Jets,Nashville Predators,Nashville Predators
+2026-03-17,1072,Chicago Blackhawks,Minnesota Wild,Minnesota Wild
+2026-03-17,1073,Edmonton Oilers,San Jose Sharks,San Jose Sharks
+2026-03-17,1074,Vancouver Canucks,Florida Panthers,Florida Panthers
+2026-03-17,1075,Vegas Golden Knights,Buffalo Sabres,Buffalo Sabres
+2026-03-17,1076,Seattle Kraken,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-18,1077,New York Rangers,New Jersey Devils,New Jersey Devils
+2026-03-18,1078,Carolina Hurricanes,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-18,1079,Washington Capitals,Ottawa Senators,Ottawa Senators
+2026-03-18,1080,Colorado Avalanche,Dallas Stars,Dallas Stars
+2026-03-18,1081,Calgary Flames,St. Louis Blues,St. Louis Blues
+2026-03-18,1082,Anaheim Ducks,Philadelphia Flyers,Philadelphia Flyers
+2026-03-19,1083,Boston Bruins,Winnipeg Jets,Winnipeg Jets
+2026-03-19,1084,Ottawa Senators,New York Islanders,New York Islanders
+2026-03-19,1085,Detroit Red Wings,Montreal Canadiens,Montreal Canadiens
+2026-03-19,1086,Columbus Blue Jackets,New York Rangers,New York Rangers
+2026-03-19,1087,Nashville Predators,Seattle Kraken,Seattle Kraken
+2026-03-19,1088,Minnesota Wild,Chicago Blackhawks,Chicago Blackhawks
+2026-03-19,1089,Edmonton Oilers,Florida Panthers,Florida Panthers
+2026-03-19,1090,Vancouver Canucks,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-19,1091,Vegas Golden Knights,Utah Mammoth,Utah Mammoth
+2026-03-19,1092,San Jose Sharks,Buffalo Sabres,Buffalo Sabres
+2026-03-19,1093,Los Angeles Kings,Philadelphia Flyers,Philadelphia Flyers
+2026-03-20,1094,Toronto Maple Leafs,Carolina Hurricanes,Carolina Hurricanes
+2026-03-20,1095,Washington Capitals,New Jersey Devils,New Jersey Devils
+2026-03-20,1096,Chicago Blackhawks,Colorado Avalanche,Colorado Avalanche
+2026-03-20,1097,Calgary Flames,Florida Panthers,Florida Panthers
+2026-03-20,1098,Utah Mammoth,Anaheim Ducks,Anaheim Ducks
+2026-03-21,1099,Pittsburgh Penguins,Winnipeg Jets,Winnipeg Jets
+2026-03-21,1100,Nashville Predators,Vegas Golden Knights,Vegas Golden Knights
+2026-03-21,1101,Minnesota Wild,Dallas Stars,Dallas Stars
+2026-03-21,1102,Los Angeles Kings,Buffalo Sabres,Buffalo Sabres
+2026-03-21,1103,San Jose Sharks,Philadelphia Flyers,Philadelphia Flyers
+2026-03-21,1104,Columbus Blue Jackets,Seattle Kraken,Seattle Kraken
+2026-03-21,1105,Montreal Canadiens,New York Islanders,New York Islanders
+2026-03-21,1106,Ottawa Senators,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-21,1107,Vancouver Canucks,St. Louis Blues,St. Louis Blues
+2026-03-21,1108,Detroit Red Wings,Boston Bruins,Boston Bruins
+2026-03-21,1109,Edmonton Oilers,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-22,1110,New York Rangers,Winnipeg Jets,Winnipeg Jets
+2026-03-22,1111,Washington Capitals,Colorado Avalanche,Colorado Avalanche
+2026-03-22,1112,Pittsburgh Penguins,Carolina Hurricanes,Carolina Hurricanes
+2026-03-22,1113,Chicago Blackhawks,Nashville Predators,Nashville Predators
+2026-03-22,1114,New York Islanders,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-22,1115,Dallas Stars,Vegas Golden Knights,Vegas Golden Knights
+2026-03-22,1116,Calgary Flames,Tampa Bay Lightning,Tampa Bay Lightning
+2026-03-22,1117,Anaheim Ducks,Buffalo Sabres,Buffalo Sabres
+2026-03-22,1118,Utah Mammoth,Los Angeles Kings,Los Angeles Kings
+2026-03-23,1119,New York Rangers,Ottawa Senators,Ottawa Senators
+2026-03-24,1120,Boston Bruins,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-24,1121,Montreal Canadiens,Carolina Hurricanes,Carolina Hurricanes
+2026-03-24,1122,Detroit Red Wings,Ottawa Senators,Ottawa Senators
+2026-03-24,1123,Florida Panthers,Seattle Kraken,Seattle Kraken
+2026-03-24,1124,New York Islanders,Chicago Blackhawks,Chicago Blackhawks
+2026-03-24,1125,Philadelphia Flyers,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-24,1126,Pittsburgh Penguins,Colorado Avalanche,Colorado Avalanche
+2026-03-24,1127,Tampa Bay Lightning,Minnesota Wild,Minnesota Wild
+2026-03-24,1128,St. Louis Blues,Washington Capitals,Washington Capitals
+2026-03-24,1129,Nashville Predators,San Jose Sharks,San Jose Sharks
+2026-03-24,1130,Dallas Stars,New Jersey Devils,New Jersey Devils
+2026-03-24,1131,Winnipeg Jets,Vegas Golden Knights,Vegas Golden Knights
+2026-03-24,1132,Utah Mammoth,Edmonton Oilers,Edmonton Oilers
+2026-03-24,1133,Calgary Flames,Los Angeles Kings,Los Angeles Kings
+2026-03-24,1134,Vancouver Canucks,Anaheim Ducks,Anaheim Ducks
+2026-03-25,1135,Buffalo Sabres,Boston Bruins,Boston Bruins
+2026-03-25,1136,Toronto Maple Leafs,New York Rangers,New York Rangers
+2026-03-26,1137,Montreal Canadiens,Columbus Blue Jackets,Columbus Blue Jackets
+2026-03-26,1138,Ottawa Senators,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-26,1139,Tampa Bay Lightning,Seattle Kraken,Seattle Kraken
+2026-03-26,1140,Florida Panthers,Minnesota Wild,Minnesota Wild
+2026-03-26,1141,New York Islanders,Dallas Stars,Dallas Stars
+2026-03-26,1142,Philadelphia Flyers,Chicago Blackhawks,Chicago Blackhawks
+2026-03-26,1143,St. Louis Blues,San Jose Sharks,San Jose Sharks
+2026-03-26,1144,Nashville Predators,New Jersey Devils,New Jersey Devils
+2026-03-26,1145,Winnipeg Jets,Colorado Avalanche,Colorado Avalanche
+2026-03-26,1146,Utah Mammoth,Washington Capitals,Washington Capitals
+2026-03-26,1147,Calgary Flames,Anaheim Ducks,Anaheim Ducks
+2026-03-26,1148,Vegas Golden Knights,Edmonton Oilers,Edmonton Oilers
+2026-03-26,1149,Vancouver Canucks,Los Angeles Kings,Los Angeles Kings
+2026-03-27,1150,Buffalo Sabres,Detroit Red Wings,Detroit Red Wings
+2026-03-27,1151,New York Rangers,Chicago Blackhawks,Chicago Blackhawks
+2026-03-28,1152,Tampa Bay Lightning,Ottawa Senators,Ottawa Senators
+2026-03-28,1153,New York Islanders,Florida Panthers,Florida Panthers
+2026-03-28,1154,Edmonton Oilers,Anaheim Ducks,Anaheim Ducks
+2026-03-28,1155,Boston Bruins,Minnesota Wild,Minnesota Wild
+2026-03-28,1156,Pittsburgh Penguins,Dallas Stars,Dallas Stars
+2026-03-28,1157,Carolina Hurricanes,New Jersey Devils,New Jersey Devils
+2026-03-28,1158,Columbus Blue Jackets,San Jose Sharks,San Jose Sharks
+2026-03-28,1159,Buffalo Sabres,Seattle Kraken,Seattle Kraken
+2026-03-28,1160,St. Louis Blues,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-28,1161,Nashville Predators,Montreal Canadiens,Montreal Canadiens
+2026-03-28,1162,Colorado Avalanche,Winnipeg Jets,Winnipeg Jets
+2026-03-28,1163,Detroit Red Wings,Philadelphia Flyers,Philadelphia Flyers
+2026-03-28,1164,Los Angeles Kings,Utah Mammoth,Utah Mammoth
+2026-03-28,1165,Calgary Flames,Vancouver Canucks,Vancouver Canucks
+2026-03-28,1166,Vegas Golden Knights,Washington Capitals,Washington Capitals
+2026-03-29,1167,New York Rangers,Florida Panthers,Florida Panthers
+2026-03-29,1168,Tampa Bay Lightning,Nashville Predators,Nashville Predators
+2026-03-29,1169,Carolina Hurricanes,Montreal Canadiens,Montreal Canadiens
+2026-03-29,1170,Columbus Blue Jackets,Boston Bruins,Boston Bruins
+2026-03-29,1171,New Jersey Devils,Chicago Blackhawks,Chicago Blackhawks
+2026-03-29,1172,Philadelphia Flyers,Dallas Stars,Dallas Stars
+2026-03-30,1173,New York Islanders,Pittsburgh Penguins,Pittsburgh Penguins
+2026-03-30,1174,Colorado Avalanche,Calgary Flames,Calgary Flames
+2026-03-30,1175,Vegas Golden Knights,Vancouver Canucks,Vancouver Canucks
+2026-03-30,1176,Anaheim Ducks,Toronto Maple Leafs,Toronto Maple Leafs
+2026-03-30,1177,San Jose Sharks,St. Louis Blues,St. Louis Blues
+2026-03-31,1178,Boston Bruins,Dallas Stars,Dallas Stars
+2026-03-31,1179,Buffalo Sabres,New York Islanders,New York Islanders
+2026-03-31,1180,Tampa Bay Lightning,Montreal Canadiens,Montreal Canadiens
+2026-03-31,1181,Florida Panthers,Ottawa Senators,Ottawa Senators
+2026-03-31,1182,New York Rangers,New Jersey Devils,New Jersey Devils
+2026-03-31,1183,Pittsburgh Penguins,Detroit Red Wings,Detroit Red Wings
+2026-03-31,1184,Washington Capitals,Philadelphia Flyers,Philadelphia Flyers
+2026-03-31,1185,Columbus Blue Jackets,Carolina Hurricanes,Carolina Hurricanes
+2026-03-31,1186,Chicago Blackhawks,Winnipeg Jets,Winnipeg Jets
+2026-03-31,1187,Edmonton Oilers,Seattle Kraken,Seattle Kraken
+2026-04-01,1188,Colorado Avalanche,Vancouver Canucks,Vancouver Canucks
+2026-04-01,1189,Los Angeles Kings,St. Louis Blues,St. Louis Blues
+2026-04-01,1190,San Jose Sharks,Anaheim Ducks,Anaheim Ducks
+2026-04-02,1191,Ottawa Senators,Buffalo Sabres,Buffalo Sabres
+2026-04-02,1192,Tampa Bay Lightning,Pittsburgh Penguins,Pittsburgh Penguins
+2026-04-02,1193,Florida Panthers,Boston Bruins,Boston Bruins
+2026-04-02,1194,New Jersey Devils,Washington Capitals,Washington Capitals
+2026-04-02,1195,New York Rangers,Montreal Canadiens,Montreal Canadiens
+2026-04-02,1196,Philadelphia Flyers,Detroit Red Wings,Detroit Red Wings
+2026-04-02,1197,Carolina Hurricanes,Columbus Blue Jackets,Columbus Blue Jackets
+2026-04-02,1198,Dallas Stars,Winnipeg Jets,Winnipeg Jets
+2026-04-02,1199,Minnesota Wild,Vancouver Canucks,Vancouver Canucks
+2026-04-02,1200,Edmonton Oilers,Chicago Blackhawks,Chicago Blackhawks
+2026-04-02,1201,Vegas Golden Knights,Calgary Flames,Calgary Flames
+2026-04-02,1202,San Jose Sharks,Toronto Maple Leafs,Toronto Maple Leafs
+2026-04-02,1203,Seattle Kraken,Utah Mammoth,Utah Mammoth
+2026-04-02,1204,Los Angeles Kings,Nashville Predators,Nashville Predators
+2026-04-03,1205,New York Islanders,Philadelphia Flyers,Philadelphia Flyers
+2026-04-03,1206,Anaheim Ducks,St. Louis Blues,St. Louis Blues
+2026-04-04,1207,New York Rangers,Detroit Red Wings,Detroit Red Wings
+2026-04-04,1208,Ottawa Senators,Minnesota Wild,Minnesota Wild
+2026-04-04,1209,Dallas Stars,Colorado Avalanche,Colorado Avalanche
+2026-04-04,1210,Tampa Bay Lightning,Boston Bruins,Boston Bruins
+2026-04-04,1211,Pittsburgh Penguins,Florida Panthers,Florida Panthers
+2026-04-04,1212,New Jersey Devils,Montreal Canadiens,Montreal Canadiens
+2026-04-04,1213,Washington Capitals,Buffalo Sabres,Buffalo Sabres
+2026-04-04,1214,Carolina Hurricanes,New York Islanders,New York Islanders
+2026-04-04,1215,Columbus Blue Jackets,Winnipeg Jets,Winnipeg Jets
+2026-04-04,1216,Vancouver Canucks,Utah Mammoth,Utah Mammoth
+2026-04-04,1217,Los Angeles Kings,Toronto Maple Leafs,Toronto Maple Leafs
+2026-04-04,1218,Edmonton Oilers,Vegas Golden Knights,Vegas Golden Knights
+2026-04-04,1219,Anaheim Ducks,Calgary Flames,Calgary Flames
+2026-04-04,1220,San Jose Sharks,Nashville Predators,Nashville Predators
+2026-04-04,1221,Seattle Kraken,Chicago Blackhawks,Chicago Blackhawks
+2026-04-05,1222,Detroit Red Wings,Minnesota Wild,Minnesota Wild
+2026-04-05,1223,Pittsburgh Penguins,Florida Panthers,Florida Panthers
+2026-04-05,1224,Philadelphia Flyers,Boston Bruins,Boston Bruins
+2026-04-05,1225,Ottawa Senators,Carolina Hurricanes,Carolina Hurricanes
+2026-04-05,1226,Montreal Canadiens,New Jersey Devils,New Jersey Devils
+2026-04-05,1227,New York Rangers,Washington Capitals,Washington Capitals
+2026-04-05,1228,Colorado Avalanche,St. Louis Blues,St. Louis Blues
+2026-04-06,1229,Buffalo Sabres,Tampa Bay Lightning,Tampa Bay Lightning
+2026-04-06,1230,Winnipeg Jets,Seattle Kraken,Seattle Kraken
+2026-04-06,1231,San Jose Sharks,Chicago Blackhawks,Chicago Blackhawks
+2026-04-06,1232,Los Angeles Kings,Nashville Predators,Nashville Predators
+2026-04-07,1233,Montreal Canadiens,Florida Panthers,Florida Panthers
+2026-04-07,1234,Ottawa Senators,Tampa Bay Lightning,Tampa Bay Lightning
+2026-04-07,1235,Detroit Red Wings,Columbus Blue Jackets,Columbus Blue Jackets
+2026-04-07,1236,New Jersey Devils,Philadelphia Flyers,Philadelphia Flyers
+2026-04-07,1237,Carolina Hurricanes,Boston Bruins,Boston Bruins
+2026-04-07,1238,St. Louis Blues,Colorado Avalanche,Colorado Avalanche
+2026-04-07,1239,Dallas Stars,Calgary Flames,Calgary Flames
+2026-04-07,1240,Minnesota Wild,Seattle Kraken,Seattle Kraken
+2026-04-07,1241,Utah Mammoth,Edmonton Oilers,Edmonton Oilers
+2026-04-07,1242,Vancouver Canucks,Vegas Golden Knights,Vegas Golden Knights
+2026-04-07,1243,Anaheim Ducks,Nashville Predators,Nashville Predators
+2026-04-08,1244,New York Rangers,Buffalo Sabres,Buffalo Sabres
+2026-04-08,1245,Toronto Maple Leafs,Washington Capitals,Washington Capitals
+2026-04-08,1246,San Jose Sharks,Edmonton Oilers,Edmonton Oilers
+2026-04-09,1247,Buffalo Sabres,Columbus Blue Jackets,Columbus Blue Jackets
+2026-04-09,1248,Montreal Canadiens,Tampa Bay Lightning,Tampa Bay Lightning
+2026-04-09,1249,Ottawa Senators,Florida Panthers,Florida Panthers
+2026-04-09,1250,Detroit Red Wings,Philadelphia Flyers,Philadelphia Flyers
+2026-04-09,1251,New Jersey Devils,Pittsburgh Penguins,Pittsburgh Penguins
+2026-04-09,1252,New York Islanders,Toronto Maple Leafs,Toronto Maple Leafs
+2026-04-09,1253,St. Louis Blues,Winnipeg Jets,Winnipeg Jets
+2026-04-09,1254,Dallas Stars,Minnesota Wild,Minnesota Wild
+2026-04-09,1255,Chicago Blackhawks,Carolina Hurricanes,Carolina Hurricanes
+2026-04-09,1256,Colorado Avalanche,Calgary Flames,Calgary Flames
+2026-04-09,1257,Utah Mammoth,Nashville Predators,Nashville Predators
+2026-04-09,1258,Anaheim Ducks,San Jose Sharks,San Jose Sharks
+2026-04-09,1259,Seattle Kraken,Vegas Golden Knights,Vegas Golden Knights
+2026-04-09,1260,Los Angeles Kings,Vancouver Canucks,Vancouver Canucks
+2026-04-11,1261,Boston Bruins,Tampa Bay Lightning,Tampa Bay Lightning
+2026-04-11,1262,New York Islanders,Ottawa Senators,Ottawa Senators
+2026-04-11,1263,Pittsburgh Penguins,Washington Capitals,Washington Capitals
+2026-04-11,1264,Los Angeles Kings,Edmonton Oilers,Edmonton Oilers
+2026-04-11,1265,Detroit Red Wings,New Jersey Devils,New Jersey Devils
+2026-04-11,1266,Chicago Blackhawks,St. Louis Blues,St. Louis Blues
+2026-04-11,1267,Nashville Predators,Minnesota Wild,Minnesota Wild
+2026-04-11,1268,Dallas Stars,New York Rangers,New York Rangers
+2026-04-11,1269,Utah Mammoth,Carolina Hurricanes,Carolina Hurricanes
+2026-04-11,1270,Toronto Maple Leafs,Florida Panthers,Florida Panthers
+2026-04-11,1271,Montreal Canadiens,Columbus Blue Jackets,Columbus Blue Jackets
+2026-04-11,1272,Winnipeg Jets,Philadelphia Flyers,Philadelphia Flyers
+2026-04-11,1273,Seattle Kraken,Calgary Flames,Calgary Flames
+2026-04-11,1274,Colorado Avalanche,Vegas Golden Knights,Vegas Golden Knights
+2026-04-11,1275,San Jose Sharks,Vancouver Canucks,Vancouver Canucks
+2026-04-12,1276,Washington Capitals,Pittsburgh Penguins,Pittsburgh Penguins
+2026-04-12,1277,New York Islanders,Montreal Canadiens,Montreal Canadiens
+2026-04-12,1278,Columbus Blue Jackets,Boston Bruins,Boston Bruins
+2026-04-12,1279,New Jersey Devils,Ottawa Senators,Ottawa Senators
+2026-04-12,1280,Anaheim Ducks,Vancouver Canucks,Vancouver Canucks
+2026-04-12,1281,Calgary Flames,Utah Mammoth,Utah Mammoth
+2026-04-13,1282,Tampa Bay Lightning,Detroit Red Wings,Detroit Red Wings
+2026-04-13,1283,Florida Panthers,New York Rangers,New York Rangers
+2026-04-13,1284,Philadelphia Flyers,Carolina Hurricanes,Carolina Hurricanes
+2026-04-13,1285,Toronto Maple Leafs,Dallas Stars,Dallas Stars
+2026-04-13,1286,St. Louis Blues,Minnesota Wild,Minnesota Wild
+2026-04-13,1287,Nashville Predators,San Jose Sharks,San Jose Sharks
+2026-04-13,1288,Chicago Blackhawks,Buffalo Sabres,Buffalo Sabres
+2026-04-13,1289,Edmonton Oilers,Colorado Avalanche,Colorado Avalanche
+2026-04-13,1290,Vegas Golden Knights,Winnipeg Jets,Winnipeg Jets
+2026-04-13,1291,Seattle Kraken,Los Angeles Kings,Los Angeles Kings
+2026-04-14,1292,Boston Bruins,New Jersey Devils,New Jersey Devils
+2026-04-14,1293,New York Islanders,Carolina Hurricanes,Carolina Hurricanes
+2026-04-14,1294,Philadelphia Flyers,Montreal Canadiens,Montreal Canadiens
+2026-04-14,1295,Columbus Blue Jackets,Washington Capitals,Washington Capitals
+2026-04-14,1296,Minnesota Wild,Anaheim Ducks,Anaheim Ducks
+2026-04-14,1297,Utah Mammoth,Winnipeg Jets,Winnipeg Jets
+2026-04-14,1298,Calgary Flames,Colorado Avalanche,Colorado Avalanche
+2026-04-14,1299,St. Louis Blues,Pittsburgh Penguins,Pittsburgh Penguins
+2026-04-14,1300,Vancouver Canucks,Los Angeles Kings,Los Angeles Kings
+2026-04-15,1301,Buffalo Sabres,Dallas Stars,Dallas Stars
+2026-04-15,1302,Tampa Bay Lightning,New York Rangers,New York Rangers
+2026-04-15,1303,Florida Panthers,Detroit Red Wings,Detroit Red Wings
+2026-04-15,1304,Ottawa Senators,Toronto Maple Leafs,Toronto Maple Leafs
+2026-04-15,1305,Chicago Blackhawks,San Jose Sharks,San Jose Sharks
+2026-04-15,1306,Vegas Golden Knights,Seattle Kraken,Seattle Kraken
+2026-04-16,1307,Nashville Predators,Anaheim Ducks,Anaheim Ducks
+2026-04-16,1308,Winnipeg Jets,San Jose Sharks,San Jose Sharks
+2026-04-16,1309,Utah Mammoth,St. Louis Blues,St. Louis Blues
+2026-04-16,1310,Calgary Flames,Los Angeles Kings,Los Angeles Kings
+2026-04-16,1311,Edmonton Oilers,Vancouver Canucks,Vancouver Canucks
+2026-04-16,1312,Colorado Avalanche,Seattle Kraken,Seattle Kraken
