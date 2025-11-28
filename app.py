@@ -358,7 +358,7 @@ def logout_widget():
 # ===================== UI: PAGES =====================
 
 def picks_page(user: Dict[str, Any]):
-    st.header("🏒 Weekly NHL Pick’em – Make Your Picks")
+    st.header("🏒 Weekly NHL Pick Tracker – Make Your Picks")
 
     today = date.today()
     week_sunday = get_picks_week_sunday(today)
@@ -553,7 +553,7 @@ def admin_set_winners_page(user: Dict[str, Any]):
 # ===================== MAIN APP =====================
 
 def main():
-    st.set_page_config(page_title="NHL Weekly Pick’em", layout="wide")
+    st.set_page_config(page_title="NHL Weekly Pick Tracker", layout="wide")
 
     if "user" not in st.session_state:
         st.session_state["user"] = None
