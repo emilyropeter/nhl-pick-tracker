@@ -360,7 +360,7 @@ def logout_widget():
 def picks_page(user: Dict[str, Any]):
     st.header("🏒 Weekly NHL Pick Tracker – Make Your Picks")
 
-    today = date.today()
+    today = datetime.date(2025, 11, 25)
     week_sunday = get_picks_week_sunday(today)
     week_id = get_week_id(week_sunday)
     start_date, end_date = get_week_date_range(week_sunday)
